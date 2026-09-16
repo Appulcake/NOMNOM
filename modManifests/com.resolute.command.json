@@ -1,0 +1,38 @@
+{
+  "id": "com.resolute.command",
+  "displayName": "Resolute Command",
+  "description": "Optional command interface for the Resolute battlecruiser.",
+  "authors": [
+    "RValeWorks"
+  ],
+  "tags": [
+    "Ship",
+    "Command"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/RValeWorks/Resolute-Command"
+    }
+  ],
+  "githubOwner": "RValeWorks",
+  "githubRepoName": "Resolute-Command",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "Resolute_Command_0.1.8.zip",
+      "version": "0.1.8",
+      "downloadUrl": "https://github.com/RValeWorks/Resolute-Command/releases/download/v0.1.8/Resolute_Command_0.1.8.zip",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.1",
+      "hash": "sha256:816abd1e280651c9f7e7ecd50cdf9fdd4383a29908c3fa3a6d8f8824cdaa3947",
+      "dependencies": [
+        {
+          "id": "com.resolute.nuclearoption",
+          "version": "0.7.25"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "com.resolute.nuclearoption",
+  "displayName": "Resolute",
+  "description": "Resolute battlecruiser with original artwork and integrated ship systems.",
+  "authors": [
+    "RValeWorks"
+  ],
+  "tags": [
+    "Ship"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/RValeWorks/Resolute"
+    }
+  ],
+  "githubOwner": "RValeWorks",
+  "githubRepoName": "Resolute",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "Resolute_0.7.25.zip",
+      "version": "0.7.25",
+      "downloadUrl": "https://github.com/RValeWorks/Resolute/releases/download/v0.7.25/Resolute_0.7.25.zip",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.1",
+      "hash": "sha256:165a5f1584cb2d1a904a540915223144506649a5bafd02e74d53887eee6ced27"
+    }
+  ]
+}
