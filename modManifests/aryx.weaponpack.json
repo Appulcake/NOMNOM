@@ -26,6 +26,45 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "AryxWeaponsPack_1.0.9.1.dll",
+      "version": "1.0.9.2",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/Aryx3D/AryxWeaponryPack/releases/download/1.0.9.2/AryxWeaponsPack_1.0.9.1.dll",
+      "hash": "sha256:770402263f7f9371b69b20c4d62f554e7e20b40584c2484546b5ba3ca17b69b9",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "1.8.21"
+      }
+    },
+    {
+      "fileName": "Aryx.Weapon.Pack_1.0.9.1.nobp",
+      "version": "1.0.9.1",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/Aryx3D/AryxWeaponryPack/releases/download/1.0.9.1/Aryx.Weapon.Pack_1.0.9.1.nobp",
+      "hash": "sha256:e40a01a8f98a3f12eef93f7382ba76ad7307caf8f7f6094830fd999358064d4e",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "1.8.21"
+      }
+    },
+    {
+      "fileName": "AryxWeaponsPack_1.0.9.dll",
+      "version": "1.0.9",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/Aryx3D/AryxWeaponryPack/releases/download/1.0.9/AryxWeaponsPack_1.0.9.dll",
+      "hash": "sha256:ba145121c856e6ff0020e50360b2006d981dd7bf49e79ddc5064dcf663cc6adf",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "1.8.21"
+      }
+    },
+    {
       "fileName": "AryxWeaponsPack_1.0.8.3.dll",
       "version": "1.0.8.3",
       "category": "release",
@@ -182,5 +221,5 @@
       }
     }
   ],
-  "downloadCount": 31150
+  "downloadCount": 31614
 }
