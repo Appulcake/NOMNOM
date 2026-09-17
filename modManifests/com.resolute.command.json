@@ -1,7 +1,7 @@
 {
   "id": "com.resolute.command",
   "displayName": "Resolute Command",
-  "description": "Optional command interface for the Resolute battlecruiser.",
+  "description": "Optional command controls for the Resolute battlecruiser: navigation, manual engagements, sensor and electronic warfare controls, damage status and replenishment. Command orders require the mission host.",
   "authors": [
     "RValeWorks"
   ],
@@ -26,7 +26,7 @@
       "category": "release",
       "type": "plugin",
       "gameVersion": "0.34.1",
-      "hash": "sha256:816abd1e280651c9f7e7ecd50cdf9fdd4383a29908c3fa3a6d8f8824cdaa3947",
+      "hash": "sha256:5db1f67f9cbe7cadc7e8d0e85961a2b1c855076d6864d9ac40f0ccef21b2df24",
       "dependencies": [
         {
           "id": "com.resolute.nuclearoption",
