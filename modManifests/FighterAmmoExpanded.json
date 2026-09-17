@@ -21,7 +21,7 @@
   "artifacts": [
     {
       "type": "addon",
-      "fileName": "SARAAM1.dll",
+      "fileName": "Fighter.Ammunition.Expanded_1.5.0.nobp",
       "category": "release",
       "version": "1.5.0",
       "gameVersion": "0.34.2",
