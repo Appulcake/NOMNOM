@@ -26,6 +26,19 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "Piledriver.MWC_1.0.2.nobp",
+      "version": "1.0.2",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/Kangkankan/Piledriver-Maneuverable-Warhead-Carrier-mod/releases/download/1.0.2/Piledriver.MWC_1.0.2.nobp",
+      "hash": "sha256:45fe3b70d6c0f3c41f64b309b2279090ee544e6e7292f88e1d37dda6624ebf53",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "2.0.1"
+      }
+    },
+    {
       "fileName": "Piledriver.MWC_1.0.1.nobp",
       "version": "1.0.1",
       "category": "release",
@@ -39,5 +52,5 @@
       }
     }
   ],
-  "downloadCount": 786
+  "downloadCount": 796
 }
