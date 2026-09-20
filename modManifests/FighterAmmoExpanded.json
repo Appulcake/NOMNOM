@@ -16,7 +16,7 @@
   ],
   "isClientOrServer": "Both",
   "githubOwner": "BirreD",
-  "githubRepoName": "https://github.com/BirreD/FAE",
+  "githubRepoName": "FAE",
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
