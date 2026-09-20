@@ -30,9 +30,10 @@
       "dependencies": [
         {
           "id": "com.resolute.nuclearoption",
-          "version": "0.7.25"
+          "version": "0.8.4"
         }
       ]
     }
-  ]
+  ],
+  "downloadCount": 204
 }

@@ -24,6 +24,15 @@
   "artifacts": [
     {
       "fileName": "Multi-Missile.dll",
+      "version": "1.2.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/kingwixly/Multi-Missile/releases/download/1.2.0/Multi-Missile.dll",
+      "hash": "sha256:091210434179b8cf5921b456f22350da0994b78236db2e604484a9de46bd41cb"
+    },
+    {
+      "fileName": "Multi-Missile.dll",
       "version": "1.1.4",
       "category": "release",
       "type": "plugin",
@@ -95,5 +104,5 @@
       "hash": "sha256:25710f1307ccff0a3238adf5921ddb5f99229722141d1cdd275d368077908784"
     }
   ],
-  "downloadCount": 3049
+  "downloadCount": 3107
 }

@@ -19,6 +19,15 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "Resolute_0.8.4.zip",
+      "version": "0.8.4",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.1",
+      "downloadUrl": "https://github.com/RValeWorks/Resolute/releases/download/v0.8.4/Resolute_0.8.4.zip",
+      "hash": "sha256:bf88d59b76b6ddeb244bd94d0886781ba1983feba21e24a41468496da959ef37"
+    },
+    {
       "fileName": "Resolute_0.7.26.zip",
       "version": "0.7.26",
       "downloadUrl": "https://github.com/RValeWorks/Resolute/releases/download/v0.7.26/Resolute_0.7.26.zip",
@@ -27,5 +36,6 @@
       "gameVersion": "0.34.1",
       "hash": "sha256:9306a73e73b2376b69096bc7bbad5b0a81e605f104a10c96755735e0c38bd919"
     }
-  ]
+  ],
+  "downloadCount": 317
 }
