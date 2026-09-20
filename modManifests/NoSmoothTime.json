@@ -25,6 +25,15 @@
   "artifacts": [
     {
       "fileName": "NoSmoothTime.dll",
+      "version": "1.2.1",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/NiJeTi/NoSmoothTime/releases/download/v1.2.1/NoSmoothTime.dll",
+      "hash": "sha256:f9fb028a83db7e5500b303c04d11110421df6d1feefe435755e73ddd09b3d4f5"
+    },
+    {
+      "fileName": "NoSmoothTime.dll",
       "version": "1.2.0",
       "category": "release",
       "type": "plugin",
@@ -42,6 +51,6 @@
       "hash": "sha256:7f4094305adf9fda13233bfb021a706413a50c174a0c7f49d17af5ac58ebfe31"
     }
   ],
-  "downloadCount": 464,
+  "downloadCount": 468,
   "isClientOrServer": "Both"
 }
