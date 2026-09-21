@@ -27,6 +27,36 @@
   "artifacts": [
     {
       "fileName": "NoWingmen.dll",
+      "version": "2.2.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/NiJeTi/NoWingmen/releases/download/v2.2.0/NoWingmen.dll",
+      "hash": "sha256:b89f9e7a2f1d8b091be5fc46420ee02cf0b4638deb0e6b9a9fee768c7a1c4ce7",
+      "dependencies": [
+        {
+          "id": "InputFramework",
+          "version": "0.0.2"
+        }
+      ]
+    },
+    {
+      "fileName": "NoWingmen.dll",
+      "version": "2.1.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/NiJeTi/NoWingmen/releases/download/v2.1.0/NoWingmen.dll",
+      "hash": "sha256:914afea266f758efd3b2e9fd67d28be88cb9da165a2fce442b550a9257f4be14",
+      "dependencies": [
+        {
+          "id": "InputFramework",
+          "version": "0.0.2"
+        }
+      ]
+    },
+    {
+      "fileName": "NoWingmen.dll",
       "version": "2.0.0",
       "category": "release",
       "type": "plugin",
@@ -89,5 +119,5 @@
       "hash": "sha256:d22fe9e8e1f67aacf64bf7abfbb7eaf04e65d3914428b6337a65f58813794398"
     }
   ],
-  "downloadCount": 698
+  "downloadCount": 706
 }
