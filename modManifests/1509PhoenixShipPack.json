@@ -23,6 +23,19 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "PhoenixShipPack_0.2.1.nobp",
+      "version": "0.2.1",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/phoenix15099/NO_1509_ShipPack/releases/download/V0.2.1/PhoenixShipPack_0.2.1.nobp",
+      "hash": "sha256:2c4cd79a31bdcc67e99728acc9a613088a0d644a1f405af354688df233f3274f",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "2.0.1"
+      }
+    },
+    {
       "fileName": "PhoenixShipPack_0.2.0.nobp",
       "version": "0.2.0",
       "category": "release",
@@ -61,5 +74,5 @@
       }
     }
   ],
-  "downloadCount": 5479
+  "downloadCount": 5670
 }
