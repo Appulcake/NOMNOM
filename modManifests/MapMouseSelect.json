@@ -1,0 +1,42 @@
+{
+  "id": "MapMouseSelect",
+  "displayName": "Map Mouse Select",
+  "description": "Box selection on the tactical map, better target designation in flight, and fixes around the map and the target list.",
+  "tags": [
+    "mod",
+    "QoL",
+    "Map",
+    "UI"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/Metadorius/MapMouseSelect"
+    },
+    {
+      "name": "releases",
+      "url": "https://github.com/Metadorius/MapMouseSelect/releases"
+    }
+  ],
+  "authors": [
+    "Kerbiter",
+    "Metadorius"
+  ],
+  "isClientOrServer": "Client",
+  "githubOwner": "Metadorius",
+  "githubRepoName": "MapMouseSelect",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "com.kerbiter.mapmouseselect_v0.3.0.zip",
+      "version": "0.3.0",
+      "category": "Release",
+      "type": "plugin",
+      "gameVersion": "0.34.1",
+      "downloadUrl": "https://github.com/Metadorius/MapMouseSelect/releases/download/v0.3.0/com.kerbiter.mapmouseselect_v0.3.0.zip",
+      "hash": "sha256:5021850f8fe50d34812d9a4e3ae998a2d3abfee774c25e794b0443793660c939",
+      "dependencies": [],
+      "incompatibilities": []
+    }
+  ]
+}
