@@ -5,8 +5,11 @@
   "tags": [
     "mod",
     "QoL",
-    "Map",
-    "UI"
+    "Client-Side",
+    "Accessibility",
+    "Bugfixes",
+    "Targeting",
+    "Map"
   ],
   "urls": [
     {
@@ -19,7 +22,6 @@
     }
   ],
   "authors": [
-    "Kerbiter",
     "Metadorius"
   ],
   "isClientOrServer": "Client",
