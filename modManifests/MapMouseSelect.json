@@ -1,7 +1,7 @@
 {
   "id": "MapMouseSelect",
   "displayName": "Map Mouse Select",
-  "description": "Box selection on the tactical map, better target designation in flight, and fixes around the map and the target list.",
+  "description": "Box/marquee selection on the map, more target designation hotkeys in flight, safe exit hotkey, frame limiter and misc. other bugfixes and improvements.",
   "tags": [
     "mod",
     "QoL",
@@ -22,7 +22,7 @@
     }
   ],
   "authors": [
-    "Metadorius"
+    "Kerbiter"
   ],
   "isClientOrServer": "Client",
   "githubOwner": "Metadorius",
