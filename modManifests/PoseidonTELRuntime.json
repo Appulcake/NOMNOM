@@ -1,0 +1,38 @@
+{
+  "id": "PoseidonTELRuntime",
+  "displayName": "R-460 Poseidon",
+  "description": "Anti-ship cruise missile for aircraft and a mobile TEL launcher with naval target filtering.",
+  "tags": [
+    "mod",
+    "Weapon",
+    "vehicle",
+    "blueprinter"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/XBarni999/R-460-Poseidon/blob/main/README.md"
+    }
+  ],
+  "authors": [
+    "XBarni999"
+  ],
+  "githubOwner": "XBarni999",
+  "githubRepoName": "R-460-Poseidon",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "R-460-Poseidon-v1.4.1.zip",
+      "version": "1.4.1",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/XBarni999/R-460-Poseidon/releases/download/v1.4.1/R-460-Poseidon-v1.4.1.zip",
+      "hash": "sha256:d13b67dab69f5a63df221ecfba40ebe0f6e7cc57efc2148d0fefcbdc734f6c13",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "2.0.1"
+      }
+    }
+  ]
+}
