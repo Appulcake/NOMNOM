@@ -1,12 +1,13 @@
 {
   "id": "FunnelGunSightMod",
   "displayName": "Funnel Gun Sight",
-  "description": "EEGS-style gun funnel HUD overlay. Two curved walls show the bullet spray envelope in real time — sized to your target's wingspan, curved by your turn rate. When the target fits between the walls, you have a correct firing solution. Supports free-look and TrackIR with zero drift.",
+  "description": "EEGS-style gun funnel HUD overlay. Two curved walls show the bullet spray envelope in real time, sized to your target's wingspan, curved by your turn rate. When the target fits between the walls, you have a correct firing solution. Supports free-look and TrackIR with zero drift.",
   "tags": [
     "mod",
     "HUD",
     "combat"
   ],
+  "isClientOrServer": "Client",
   "urls": [
     {
       "name": "info",
@@ -27,7 +28,13 @@
       "type": "plugin",
       "gameVersion": "0.34.2",
       "downloadUrl": "https://github.com/mosdef31/NO-FunnelGunSight/releases/download/v1.3.0/FunnelGunSightMod.dll",
-      "hash": "sha256:fc84f9ee5e834f22877f04fd85aee47a1f6a2b06e23bdc3dcbcbfe68f58cb0c2"
+      "hash": "sha256:fc84f9ee5e834f22877f04fd85aee47a1f6a2b06e23bdc3dcbcbfe68f58cb0c2",
+      "dependencies": [
+        {
+          "id": "BepInEx.ConfigurationManager",
+          "version": "18.4.1"
+        }
+      ]
     },
     {
       "fileName": "FunnelGunSightMod.dll",
