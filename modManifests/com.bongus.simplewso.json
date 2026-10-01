@@ -9,16 +9,26 @@
   "urls": [
     {
       "name": "info",
-      "url": "https://github.com/ItsBongus/NOMNOM-com-bongus-simplewso"
+      "url": "https://github.com/Motmir/SimpleWSO"
     }
   ],
   "authors": [
-    "Bongus"
+    "Bongus",
+    "Motmir"
   ],
-  "githubOwner": "ItsBongus",
-  "githubRepoName": "NOMNOM-com-bongus-simplewso",
+  "githubOwner": "Motmir",
+  "githubRepoName": "SimpleWSO",
   "autoUpdateArtifacts": "True",
   "artifacts": [
+    {
+      "type": "plugin",
+      "fileName": "com.bongus.simplewso_v1.1.0.zip",
+      "downloadUrl": "https://github.com/Motmir/SimpleWSO/releases/download/1.1.0/com.bongus.simplewso_v1.1.0.zip",
+      "hash": "sha256:37f2bbe3c7c8cf65594776e6503cf3dd26c743deb2a5aeab4e6fc5f061d02d9d",
+      "gameVersion": "0.34.2",
+      "version": "1.1.0",
+      "category": "Release"
+    },
     {
       "type": "plugin",
       "fileName": "com.bongus.simplewso_v1.0.0.zip",
