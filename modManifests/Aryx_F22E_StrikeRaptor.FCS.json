@@ -1,0 +1,41 @@
+{
+  "id": "Aryx_F22E_StrikeRaptor.FCS",
+  "displayName": "F-22E Strike Raptor FCS",
+  "description": "Replaces the flight control laws of Aryx's F-22E with a fly-by-wire system: AoA command at low speed blending into G command at high speed, pitch-rate command past 36 degrees AoA in both directions, roll/yaw blending at high AoA, a low-thrust AoA cap, asymmetric-load compensation and carefree handling. Includes small CG and aerodynamic tweaks. Requires the Aryx F-22E mod. The optional DevUnlock plugin (separate release asset) exposes the debug settings.",
+  "tags": [
+    "mod",
+    "QoL",
+    "aircraft",
+    "flight-control"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/duythinh2022-ui/Advanced-flight-controls-addon-for-Aryx-s-F-22E-mod-for-Nuclear-Option./blob/main/README.md"
+    }
+  ],
+  "authors": [
+    "duythinh2022-ui"
+  ],
+  "isClientOrServer": "Both",
+  "githubOwner": "duythinh2022-ui",
+  "githubRepoName": "Advanced-flight-controls-addon-for-Aryx-s-F-22E-mod-for-Nuclear-Option.",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "F22E-StrikeRaptor-FCS-1.9.7.zip",
+      "version": "1.9.7",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/duythinh2022-ui/Advanced-flight-controls-addon-for-Aryx-s-F-22E-mod-for-Nuclear-Option./releases/download/v1.9.7/F22E-StrikeRaptor-FCS-1.9.7.zip",
+      "hash": "sha256:3996b3a5768dffc74e91fd3f017f9e58d58cd3682653f60a5730bf8848ea2a45",
+      "dependencies": [
+        {
+          "id": "aryx.f22e",
+          "version": "1.0.4"
+        }
+      ]
+    }
+  ]
+}

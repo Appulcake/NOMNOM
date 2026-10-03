@@ -7,6 +7,7 @@
     "Weapon",
     "blueprinter"
   ],
+  "isClientOrServer": "Both",
   "urls": [
     {
       "name": "info",
@@ -171,5 +172,5 @@
       ]
     }
   ],
-  "downloadCount": 10192
+  "downloadCount": 10334
 }
