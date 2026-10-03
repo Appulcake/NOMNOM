@@ -1,0 +1,33 @@
+{
+  "id": "com.bigloude.notacmap",
+  "displayName": "NOTacMap",
+  "description": "Second-screen tactical map. Live player position, tracked units, airbases, and waypoints; incoming-missile warnings; flight-wide friendly weapon tracking; your own marked targets - all in a browser page on a second monitor, with no manual setup.",
+  "tags": [
+    "QoL",
+    "Utility"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/Big-LouDE/NOTacMap"
+    }
+  ],
+  "authors": [
+    "Big-LouDE"
+  ],
+  "isClientOrServer": "Client",
+  "githubOwner": "Big-LouDE",
+  "githubRepoName": "NOTacMap",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "type": "plugin",
+      "fileName": "com.bigloude.notacmap_v1.0.0.zip",
+      "downloadUrl": "https://github.com/Big-LouDE/NOTacMap/releases/download/v1.0.0/com.bigloude.notacmap_v1.0.0.zip",
+      "hash": "sha256:7e4975453527a00d59fa3024b25223f759d2a2e6b726545715ffa2b2cb66a772",
+      "gameVersion": "0.34.1",
+      "version": "1.0.0",
+      "category": "Release"
+    }
+  ]
+}
