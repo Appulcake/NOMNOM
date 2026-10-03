@@ -21,6 +21,15 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "NoMapOverhaul-v0.5.1-nomm.zip",
+      "version": "0.5.1",
+      "category": "preRelease",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/baanish/NO-Map-Overhaul/releases/download/v0.5.1/NoMapOverhaul-v0.5.1-nomm.zip",
+      "hash": "sha256:a710e3b026e956a538cbf5a48faa94527ee38780f36f89a3bd53f9e3c7c9cd71"
+    },
+    {
       "fileName": "NoMapOverhaul-v0.5.0-nomm.zip",
       "version": "0.5.0",
       "category": "preRelease",
@@ -29,5 +38,6 @@
       "downloadUrl": "https://github.com/baanish/NO-Map-Overhaul/releases/download/v0.5.0/NoMapOverhaul-v0.5.0-nomm.zip",
       "hash": "sha256:d7aba3f84cd835eaa5a84ff1e1fd4b068b32c4f5d6742051bdba99c7d57428e7"
     }
-  ]
+  ],
+  "downloadCount": 37
 }

@@ -75,7 +75,7 @@
         }
       }
     ],
-    "downloadCount": 9032
+    "downloadCount": 9055
   },
   {
     "id": "155mmRailgun",
@@ -117,7 +117,7 @@
         }
       }
     ],
-    "downloadCount": 8504
+    "downloadCount": 8507
   },
   {
     "id": "AGR31Tenpin",
@@ -128,6 +128,7 @@
       "Weapon",
       "blueprinter"
     ],
+    "isClientOrServer": "Both",
     "urls": [
       {
         "name": "info",
@@ -292,7 +293,7 @@
         ]
       }
     ],
-    "downloadCount": 10334
+    "downloadCount": 10345
   },
   {
     "id": "AIAircraftLimit",
@@ -325,7 +326,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 8654
+    "downloadCount": 8656
   },
   {
     "id": "AircraftWaypoints",
@@ -366,7 +367,7 @@
         "downloadUrl": "https://github.com/9138noms/NuclearOption-AircraftWaypoints/releases/download/v2.1.0/AircraftWaypoints.zip"
       }
     ],
-    "downloadCount": 3014
+    "downloadCount": 3017
   },
   {
     "id": "AirSpawnMod",
@@ -377,6 +378,7 @@
       "QoL",
       "testing"
     ],
+    "isClientOrServer": "Server",
     "urls": [
       {
         "name": "info",
@@ -397,7 +399,13 @@
         "type": "plugin",
         "gameVersion": "0.34.2",
         "downloadUrl": "https://github.com/mosdef31/NOAS/releases/download/v1.2.0/AirSpawnMod.dll",
-        "hash": "sha256:fcc5646795df7ed910632fb8a016cb0b6ebe9e425f63f301a58297a70881dc49"
+        "hash": "sha256:fcc5646795df7ed910632fb8a016cb0b6ebe9e425f63f301a58297a70881dc49",
+        "dependencies": [
+          {
+            "id": "BepInEx.ConfigurationManager",
+            "version": "18.4.1"
+          }
+        ]
       },
       {
         "fileName": "AirSpawnMod.dll",
@@ -418,7 +426,7 @@
         "hash": "bbcffdcba57d78f653a3f979ccf6c5280fc57501e8d314d032f7ea1a5ab50e9f"
       }
     ],
-    "downloadCount": 2201
+    "downloadCount": 2208
   },
   {
     "id": "Apul.NO_Optimisation",
@@ -460,7 +468,49 @@
         ]
       }
     ],
-    "downloadCount": 940
+    "downloadCount": 950
+  },
+  {
+    "id": "Aryx_F22E_StrikeRaptor.FCS",
+    "displayName": "F-22E Strike Raptor FCS",
+    "description": "Replaces the flight control laws of Aryx's F-22E with a fly-by-wire system: AoA command at low speed blending into G command at high speed, pitch-rate command past 36 degrees AoA in both directions, roll/yaw blending at high AoA, a low-thrust AoA cap, asymmetric-load compensation and carefree handling. Includes small CG and aerodynamic tweaks. Requires the Aryx F-22E mod. The optional DevUnlock plugin (separate release asset) exposes the debug settings.",
+    "tags": [
+      "mod",
+      "QoL",
+      "aircraft",
+      "flight-control"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/duythinh2022-ui/Advanced-flight-controls-addon-for-Aryx-s-F-22E-mod-for-Nuclear-Option./blob/main/README.md"
+      }
+    ],
+    "authors": [
+      "duythinh2022-ui"
+    ],
+    "isClientOrServer": "Both",
+    "githubOwner": "duythinh2022-ui",
+    "githubRepoName": "Advanced-flight-controls-addon-for-Aryx-s-F-22E-mod-for-Nuclear-Option.",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "F22E-StrikeRaptor-FCS-1.9.7.zip",
+        "version": "1.9.7",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/duythinh2022-ui/Advanced-flight-controls-addon-for-Aryx-s-F-22E-mod-for-Nuclear-Option./releases/download/v1.9.7/F22E-StrikeRaptor-FCS-1.9.7.zip",
+        "hash": "sha256:3996b3a5768dffc74e91fd3f017f9e58d58cd3682653f60a5730bf8848ea2a45",
+        "dependencies": [
+          {
+            "id": "aryx.f22e",
+            "version": "1.0.4"
+          }
+        ]
+      }
+    ],
+    "downloadCount": 54
   },
   {
     "id": "aryx.f16m",
@@ -815,7 +865,7 @@
         }
       }
     ],
-    "downloadCount": 101839
+    "downloadCount": 101906
   },
   {
     "id": "aryx.f22e",
@@ -910,7 +960,7 @@
         }
       }
     ],
-    "downloadCount": 14810
+    "downloadCount": 14887
   },
   {
     "id": "aryx.f99",
@@ -1083,7 +1133,7 @@
         }
       }
     ],
-    "downloadCount": 66698
+    "downloadCount": 66830
   },
   {
     "id": "aryx.fs41",
@@ -1334,7 +1384,7 @@
         }
       }
     ],
-    "downloadCount": 69453
+    "downloadCount": 69555
   },
   {
     "id": "aryx.mc260",
@@ -1676,7 +1726,7 @@
         }
       }
     ],
-    "downloadCount": 111292
+    "downloadCount": 111356
   },
   {
     "id": "aryx.mig15",
@@ -1797,7 +1847,7 @@
         }
       }
     ],
-    "downloadCount": 41515
+    "downloadCount": 41547
   },
   {
     "id": "aryx.navex",
@@ -1879,7 +1929,7 @@
         }
       }
     ],
-    "downloadCount": 35207
+    "downloadCount": 35228
   },
   {
     "id": "aryx.oa27",
@@ -1935,7 +1985,7 @@
         }
       }
     ],
-    "downloadCount": 15491
+    "downloadCount": 15528
   },
   {
     "id": "aryx.rah72",
@@ -2121,7 +2171,7 @@
         }
       }
     ],
-    "downloadCount": 69663
+    "downloadCount": 69799
   },
   {
     "id": "aryx.weaponpack",
@@ -2372,7 +2422,7 @@
         }
       }
     ],
-    "downloadCount": 44658
+    "downloadCount": 44710
   },
   {
     "id": "AShM500Yashma",
@@ -2423,7 +2473,7 @@
         }
       }
     ],
-    "downloadCount": 3722
+    "downloadCount": 3724
   },
   {
     "id": "AtomicFramework",
@@ -2496,10 +2546,16 @@
         "type": "plugin",
         "gameVersion": "0.34.2",
         "downloadUrl": "https://github.com/mosdef31/NO-Bay-Doors/releases/download/v1.0.2/BayDoorsMod.dll",
-        "hash": "sha256:601d673baed94daa6f03aafa44e2200db7fecd34a20cdecf4eb45b05e58bf725"
+        "hash": "sha256:601d673baed94daa6f03aafa44e2200db7fecd34a20cdecf4eb45b05e58bf725",
+        "dependencies": [
+          {
+            "id": "BepInEx.ConfigurationManager",
+            "version": "18.4.1"
+          }
+        ]
       }
     ],
-    "downloadCount": 577,
+    "downloadCount": 579,
     "imageUrl": "https://raw.githubusercontent.com/mosdef31/NO-Bay-Doors/main/images/baydoors_icon_512.png",
     "imageHash": "e1176dd966942df347c6a1724f351eac7114295a9bfe3e05fc3dd2bcd245d293"
   },
@@ -2533,7 +2589,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 4103
+    "downloadCount": 4105
   },
   {
     "id": "BepInEx.ConfigurationManager",
@@ -2697,7 +2753,7 @@
         }
       }
     ],
-    "downloadCount": 4855
+    "downloadCount": 4870
   },
   {
     "id": "blacknight2u.f117a.nighthawk",
@@ -2815,7 +2871,7 @@
         ]
       }
     ],
-    "downloadCount": 9999,
+    "downloadCount": 10038,
     "imageUrl": "https://raw.githubusercontent.com/blacknight2u/nuclear-option-f117/efc58fe1c08110853788e221e24876f299ca69d0/Store/F117A-Nighthawk-NOMM.png",
     "imageHash": "032ef6db858a87786e13e2f6c36f8f6b111aac338755c0045d8036521b88b247"
   },
@@ -2875,7 +2931,7 @@
         "incompatibilities": []
       }
     ],
-    "downloadCount": 418
+    "downloadCount": 420
   },
   {
     "id": "blueprinter.kestrel",
@@ -2932,7 +2988,7 @@
         }
       }
     ],
-    "downloadCount": 41944
+    "downloadCount": 41967
   },
   {
     "id": "blueprinter.ternion",
@@ -2986,7 +3042,7 @@
         }
       }
     ],
-    "downloadCount": 21497,
+    "downloadCount": 21534,
     "isClientOrServer": "Both"
   },
   {
@@ -3178,7 +3234,7 @@
         }
       }
     ],
-    "downloadCount": 49613
+    "downloadCount": 49637
   },
   {
     "id": "BVR-BalanceAndVarietyRework",
@@ -3270,7 +3326,7 @@
         }
       }
     ],
-    "downloadCount": 1718
+    "downloadCount": 1722
   },
   {
     "id": "byt0rpilot.MissileScreen",
@@ -3304,7 +3360,7 @@
         "hash": "sha256:6dee4b2501f10dc0339f4e3aa577341c5bb12aebe858a173c1f5333984949f94"
       }
     ],
-    "downloadCount": 680
+    "downloadCount": 682
   },
   {
     "id": "byt0rpilot.ShaderNightVision",
@@ -3359,7 +3415,7 @@
         "hash": "sha256:3097cf591bfeea1099ff3a5e2bb61ed64a88a4221174d2f80e8a9d6705edeff4"
       }
     ],
-    "downloadCount": 563
+    "downloadCount": 567
   },
   {
     "id": "CameraPresets",
@@ -3468,7 +3524,7 @@
         "hash": "sha256:259cd6f69804b68691e20a4e41800db32c5f4daab85e44358b25b0c1221672cf"
       }
     ],
-    "downloadCount": 377
+    "downloadCount": 381
   },
   {
     "id": "ChaseView",
@@ -3502,7 +3558,7 @@
         "hash": "sha256:aae68ea57f93cfe6046ccc954fa8ff7e35f0c364dcb541d14da24299130c8863"
       }
     ],
-    "downloadCount": 1344
+    "downloadCount": 1345
   },
   {
     "id": "ChicanePusherLab",
@@ -3648,7 +3704,7 @@
         "dependencies": []
       }
     ],
-    "downloadCount": 2244
+    "downloadCount": 2245
   },
   {
     "id": "ChicaneWingDelete",
@@ -3709,7 +3765,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 2265
+    "downloadCount": 2266
   },
   {
     "id": "ChimeraTailWeld",
@@ -3818,7 +3874,50 @@
         "hash": "sha256:837dfb023b5ba23d8ac9683ec23b03b3d6a7d35c3e2c4ed97ac9cd9187baca13"
       }
     ],
-    "downloadCount": 4641
+    "downloadCount": 4642
+  },
+  {
+    "id": "com.bigloude.notacmap",
+    "displayName": "NOTacMap",
+    "description": "Second-screen tactical map. Live player position, tracked units, airbases, and waypoints; incoming-missile warnings; flight-wide friendly weapon tracking; your own marked targets - all in a browser page on a second monitor, with no manual setup.",
+    "tags": [
+      "QoL",
+      "Utility"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/Big-LouDE/NOTacMap"
+      }
+    ],
+    "authors": [
+      "Big-LouDE"
+    ],
+    "isClientOrServer": "Client",
+    "githubOwner": "Big-LouDE",
+    "githubRepoName": "NOTacMap",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "com.bigloude.notacmap_v1.1.0.zip",
+        "version": "1.1.0",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/Big-LouDE/NOTacMap/releases/download/v1.1.0/com.bigloude.notacmap_v1.1.0.zip",
+        "hash": "sha256:f034e4276fd1e8fd6828434c5a09140b330f4bf1bc00febf105a0723eadaace8"
+      },
+      {
+        "type": "plugin",
+        "fileName": "com.bigloude.notacmap_v1.0.0.zip",
+        "downloadUrl": "https://github.com/Big-LouDE/NOTacMap/releases/download/v1.0.0/com.bigloude.notacmap_v1.0.0.zip",
+        "hash": "sha256:7e4975453527a00d59fa3024b25223f759d2a2e6b726545715ffa2b2cb66a772",
+        "gameVersion": "0.34.1",
+        "version": "1.0.0",
+        "category": "Release"
+      }
+    ],
+    "downloadCount": 12
   },
   {
     "id": "com.bongus.simplewso",
@@ -3831,16 +3930,44 @@
     "urls": [
       {
         "name": "info",
-        "url": "https://github.com/ItsBongus/NOMNOM-com-bongus-simplewso"
+        "url": "https://github.com/Motmir/SimpleWSO"
       }
     ],
     "authors": [
-      "Bongus"
+      "Bongus",
+      "Motmir"
     ],
-    "githubOwner": "ItsBongus",
-    "githubRepoName": "NOMNOM-com-bongus-simplewso",
+    "githubOwner": "Motmir",
+    "githubRepoName": "SimpleWSO",
     "autoUpdateArtifacts": "True",
     "artifacts": [
+      {
+        "fileName": "com.bongus.simplewso_v1.1.2.zip",
+        "version": "1.1.2",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/Motmir/SimpleWSO/releases/download/1.1.2/com.bongus.simplewso_v1.1.2.zip",
+        "hash": "sha256:08d7dec335802d997e733244bee5c68a832944fd2e4c067fa2540053432ffd8e"
+      },
+      {
+        "fileName": "com.bongus.simplewso_v1.1.1.zip",
+        "version": "1.1.1",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/Motmir/SimpleWSO/releases/download/1.1.1/com.bongus.simplewso_v1.1.1.zip",
+        "hash": "sha256:bad47434e803acfd41acf9c5e2576369e69ce2f873801d315f05a85eafcf65b5"
+      },
+      {
+        "type": "plugin",
+        "fileName": "com.bongus.simplewso_v1.1.0.zip",
+        "downloadUrl": "https://github.com/Motmir/SimpleWSO/releases/download/1.1.0/com.bongus.simplewso_v1.1.0.zip",
+        "hash": "sha256:37f2bbe3c7c8cf65594776e6503cf3dd26c743deb2a5aeab4e6fc5f061d02d9d",
+        "gameVersion": "0.34.2",
+        "version": "1.1.0",
+        "category": "Release"
+      },
       {
         "type": "plugin",
         "fileName": "com.bongus.simplewso_v1.0.0.zip",
@@ -3851,7 +3978,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 1374
+    "downloadCount": 34
   },
   {
     "id": "com.dsr.nors",
@@ -3983,7 +4110,7 @@
         "hash": "sha256:4b4211b339eda6c48142bcf9c190ed322acf3cfe2fefdfa3898af379e82dbd47"
       }
     ],
-    "downloadCount": 3353,
+    "downloadCount": 3363,
     "imageUrl": "https://raw.githubusercontent.com/NORehabRocket/NORS---Nuclear-Option-Radio-System/refs/heads/main/icon.png",
     "imageHash": "ea6fda81798f846fbadea9cb6dc55b305277a4418686006cba39100476597a94"
   },
@@ -4027,7 +4154,7 @@
         "hash": "sha256:03858353393143de47bf3043910129e803458de6c80fac29b1b3c8f7a868f5ef"
       }
     ],
-    "downloadCount": 3611
+    "downloadCount": 3614
   },
   {
     "id": "Com.Hellcat92.ChangePlayerName",
@@ -4136,7 +4263,7 @@
         "hash": "sha256:1ce74fc011e60199c4f98ca8c05d154e5be21470e0ebc336097890ac9f49a4da"
       }
     ],
-    "downloadCount": 3263
+    "downloadCount": 3279
   },
   {
     "id": "Com.Hellcat92.TargetGridRefHUD",
@@ -4221,7 +4348,7 @@
         ]
       }
     ],
-    "downloadCount": 1633
+    "downloadCount": 1637
   },
   {
     "id": "Com.Hellcat92.VanillaIconsPLUS",
@@ -4276,7 +4403,7 @@
         ]
       }
     ],
-    "downloadCount": 2586
+    "downloadCount": 2587
   },
   {
     "id": "com.JUSTJ7780.globalsoundreplacerno",
@@ -4346,7 +4473,7 @@
         ]
       }
     ],
-    "downloadCount": 6307
+    "downloadCount": 6312
   },
   {
     "id": "com.JUSTJ7780.nomodframework",
@@ -4388,7 +4515,7 @@
         "hash": "sha256:24b75fbcd9b8e930f3edfde6879549d72d90b9083d7a386a9305d4c3e9dc6635"
       }
     ],
-    "downloadCount": 1395
+    "downloadCount": 1397
   },
   {
     "id": "com.justj7780.nuclearoption.inertia",
@@ -4500,7 +4627,7 @@
         ]
       }
     ],
-    "downloadCount": 602
+    "downloadCount": 604
   },
   {
     "id": "com.kiss",
@@ -4551,7 +4678,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 4395
+    "downloadCount": 4397
   },
   {
     "id": "com.minec.CameraImprovements",
@@ -4624,7 +4751,13 @@
         "type": "plugin",
         "gameVersion": "0.34.2",
         "downloadUrl": "https://github.com/nenad1797-oss/HandyTTS/releases/download/1.0.0/HandyTTS-1.0.0.zip",
-        "hash": "sha256:39f51e805e6d6d97cbc8d2b3e10aeb75528af98a168d9b15adcdeddbc7a93f2d"
+        "hash": "sha256:39f51e805e6d6d97cbc8d2b3e10aeb75528af98a168d9b15adcdeddbc7a93f2d",
+        "incompatibilities": [
+          {
+            "id": "com.MrNoHands.tts-lite",
+            "version": "1.0.0"
+          }
+        ]
       }
     ],
     "downloadCount": 72
@@ -4632,7 +4765,7 @@
   {
     "id": "com.MrNoHands.tts-lite",
     "displayName": "Handy TTS Lite",
-    "description": "Featherweight TTS companion: the game's own voice, faster and cleaner. Zero downloads beyond kilobytes.",
+    "description": "Quality of life for the games inbuilt TTS, take a look at the full version for more features.",
     "tags": [
       "QoL",
       "Audio"
@@ -4658,10 +4791,16 @@
         "type": "plugin",
         "gameVersion": "0.34.2",
         "downloadUrl": "https://github.com/nenad1797-oss/HandyTTS-Lite/releases/download/1.0.0/Com.MrNoHands.TtsLite.dll",
-        "hash": "sha256:63767e066962ec84f1de1764ee83fc8d268aa3c76d469ac75c3f0a2142c0fe3a"
+        "hash": "sha256:63767e066962ec84f1de1764ee83fc8d268aa3c76d469ac75c3f0a2142c0fe3a",
+        "incompatibilities": [
+          {
+            "id": "com.MrNoHands.tts-expander",
+            "version": "1.0.0"
+          }
+        ]
       }
     ],
-    "downloadCount": 18
+    "downloadCount": 19
   },
   {
     "id": "com.mursisru.agr75heavypin",
@@ -4737,7 +4876,7 @@
         ]
       }
     ],
-    "downloadCount": 3714
+    "downloadCount": 3724
   },
   {
     "id": "com.mursisru.gpm550x",
@@ -4813,7 +4952,7 @@
         ]
       }
     ],
-    "downloadCount": 3559
+    "downloadCount": 3565
   },
   {
     "id": "com.mursisru.mk88hydra",
@@ -4904,7 +5043,7 @@
         ]
       }
     ],
-    "downloadCount": 5781
+    "downloadCount": 5801
   },
   {
     "id": "com.mursisru.x77warewind",
@@ -5010,7 +5149,7 @@
         ]
       }
     ],
-    "downloadCount": 6775
+    "downloadCount": 6787
   },
   {
     "id": "com.nikkorap.blueprinter",
@@ -5119,7 +5258,7 @@
         "hash": "sha256:c5acfa50210aca58ff226b9a07c82f11aed14553c97a31b8d5042862ab0ee1eb"
       }
     ],
-    "downloadCount": 94983
+    "downloadCount": 95074
   },
   {
     "id": "com.nikkorap.EditorPlus",
@@ -5221,7 +5360,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 4045
+    "downloadCount": 4046
   },
   {
     "id": "com.resolute.command",
@@ -5260,7 +5399,7 @@
         ]
       }
     ],
-    "downloadCount": 958
+    "downloadCount": 964
   },
   {
     "id": "com.resolute.nuclearoption",
@@ -5301,7 +5440,7 @@
         "hash": "sha256:9306a73e73b2376b69096bc7bbad5b0a81e605f104a10c96755735e0c38bd919"
       }
     ],
-    "downloadCount": 1923
+    "downloadCount": 1935
   },
   {
     "id": "DelamereAerospace_weapons_pack",
@@ -5338,7 +5477,7 @@
         }
       }
     ],
-    "downloadCount": 1344
+    "downloadCount": 1352
   },
   {
     "id": "dev.dikka.nuclearconnectivity",
@@ -5412,7 +5551,7 @@
         "hash": "sha256:e6ae546f635beb2e37b8b2fc6e193689eb39cb13c46d8a1861f6e6ed0cd637bd"
       }
     ],
-    "downloadCount": 2000
+    "downloadCount": 2001
   },
   {
     "id": "dev.dikka.nuclearmapplayernames",
@@ -5606,7 +5745,7 @@
         ]
       }
     ],
-    "downloadCount": 13886
+    "downloadCount": 13899
   },
   {
     "id": "FighterAmmoExpanded",
@@ -5643,7 +5782,7 @@
         }
       }
     ],
-    "downloadCount": 950
+    "downloadCount": 957
   },
   {
     "id": "FrontlineMap",
@@ -5701,17 +5840,18 @@
         "downloadUrl": "https://github.com/9138noms/FrontlineMap/releases/download/v1.2.1/FrontlineMap.dll"
       }
     ],
-    "downloadCount": 16771
+    "downloadCount": 16786
   },
   {
     "id": "FunnelGunSightMod",
     "displayName": "Funnel Gun Sight",
-    "description": "EEGS-style gun funnel HUD overlay. Two curved walls show the bullet spray envelope in real time — sized to your target's wingspan, curved by your turn rate. When the target fits between the walls, you have a correct firing solution. Supports free-look and TrackIR with zero drift.",
+    "description": "EEGS-style gun funnel HUD overlay. Two curved walls show the bullet spray envelope in real time, sized to your target's wingspan, curved by your turn rate. When the target fits between the walls, you have a correct firing solution. Supports free-look and TrackIR with zero drift.",
     "tags": [
       "mod",
       "HUD",
       "combat"
     ],
+    "isClientOrServer": "Client",
     "urls": [
       {
         "name": "info",
@@ -5732,7 +5872,13 @@
         "type": "plugin",
         "gameVersion": "0.34.2",
         "downloadUrl": "https://github.com/mosdef31/NO-FunnelGunSight/releases/download/v1.3.0/FunnelGunSightMod.dll",
-        "hash": "sha256:fc84f9ee5e834f22877f04fd85aee47a1f6a2b06e23bdc3dcbcbfe68f58cb0c2"
+        "hash": "sha256:fc84f9ee5e834f22877f04fd85aee47a1f6a2b06e23bdc3dcbcbfe68f58cb0c2",
+        "dependencies": [
+          {
+            "id": "BepInEx.ConfigurationManager",
+            "version": "18.4.1"
+          }
+        ]
       },
       {
         "fileName": "FunnelGunSightMod.dll",
@@ -5798,7 +5944,7 @@
         "hash": "sha256:4f8491978cc99c9bdd0c5be8a2e351613f8f0e34887c3954b852ef536ca00676"
       }
     ],
-    "downloadCount": 9294
+    "downloadCount": 9321
   },
   {
     "id": "galaxy2_voice",
@@ -5942,7 +6088,7 @@
         }
       }
     ],
-    "downloadCount": 853
+    "downloadCount": 860
   },
   {
     "id": "HorusMod",
@@ -6045,7 +6191,7 @@
         "hash": "sha256:f6414b84d1df84c691cdb80fa9db75cce592e066d66fe807e9e379f36449c5fe"
       }
     ],
-    "downloadCount": 3630
+    "downloadCount": 3633
   },
   {
     "id": "IbisDoorGunToggle",
@@ -6169,7 +6315,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 2977
+    "downloadCount": 2980
   },
   {
     "id": "IbisPowerFix",
@@ -6274,7 +6420,7 @@
         "hash": "sha256:10641980a6526e6a49c83b12b8b6acfcb526135e27c7d32d7885b698fd87d86f"
       }
     ],
-    "downloadCount": 2394
+    "downloadCount": 2401
   },
   {
     "id": "InputFramework",
@@ -6308,7 +6454,7 @@
         "hash": "sha256:405a157838cba3ae1b516e114c42f4bd38959cdbc498bb5d166264928a6b7c26"
       }
     ],
-    "downloadCount": 1462
+    "downloadCount": 1466
   },
   {
     "id": "jester_voice",
@@ -6417,7 +6563,7 @@
         }
       }
     ],
-    "downloadCount": 853
+    "downloadCount": 860
   },
   {
     "id": "k_TBM_MWC",
@@ -6473,7 +6619,7 @@
         }
       }
     ],
-    "downloadCount": 1963
+    "downloadCount": 1971
   },
   {
     "id": "KaceyTronic-RWR",
@@ -6526,7 +6672,7 @@
         "hash": "sha256:571ad2daa961de9cdd9c56df23a983369ed06423452306433c410ddb331e8b50"
       }
     ],
-    "downloadCount": 5755
+    "downloadCount": 5777
   },
   {
     "id": "kar",
@@ -6605,7 +6751,7 @@
         }
       }
     ],
-    "downloadCount": 40062
+    "downloadCount": 40087
   },
   {
     "id": "KestrelCompatibility",
@@ -6646,7 +6792,7 @@
         ]
       }
     ],
-    "downloadCount": 1035
+    "downloadCount": 1037
   },
   {
     "id": "klawshout_voice",
@@ -6767,7 +6913,7 @@
         "hash": "sha256:1cb21af1577180fcaec008f70bc9ca2e191de79335fed9817c64463e2d5b4a8c"
       }
     ],
-    "downloadCount": 13440
+    "downloadCount": 13448
   },
   {
     "id": "KR-EW.67",
@@ -6800,7 +6946,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 7331
+    "downloadCount": 7335
   },
   {
     "id": "LaserRocketFix",
@@ -6832,7 +6978,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 11066
+    "downloadCount": 11073
   },
   {
     "id": "LiveryDownloader",
@@ -6865,7 +7011,7 @@
         "hash": "sha256:3632f0ebf44e752a506526c95b5cd244356abce8318cb6868f925755b5c08f81"
       }
     ],
-    "downloadCount": 2222
+    "downloadCount": 2228
   },
   {
     "id": "LiveryManager",
@@ -7016,7 +7162,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 6903
+    "downloadCount": 6905
   },
   {
     "id": "LocalizationPatch.Belarusian",
@@ -7424,7 +7570,7 @@
         ]
       }
     ],
-    "downloadCount": 1089
+    "downloadCount": 1090
   },
   {
     "id": "LocalizationPatch.German",
@@ -8657,7 +8803,7 @@
         ]
       }
     ],
-    "downloadCount": 1489
+    "downloadCount": 1491
   },
   {
     "id": "LocalizationPatch.Spanish",
@@ -9074,7 +9220,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 179
+    "downloadCount": 180
   },
   {
     "id": "LockToneShootPing",
@@ -9144,7 +9290,7 @@
         "hash": "sha256:E78F676FA04AB9F3E4338ACC760AAC99A05E7192098715B3C5D18A29A73B4C15"
       }
     ],
-    "downloadCount": 4721
+    "downloadCount": 4729
   },
   {
     "id": "MapLoader",
@@ -9178,6 +9324,53 @@
     "downloadCount": 2267
   },
   {
+    "id": "MapMouseSelect",
+    "displayName": "Map Mouse Select",
+    "description": "Box/marquee selection on the map, more target designation hotkeys in flight, safe exit hotkey, frame limiter and misc. other bugfixes and improvements.",
+    "tags": [
+      "mod",
+      "QoL",
+      "Client-Side",
+      "Accessibility",
+      "Bugfixes",
+      "Targeting",
+      "Map"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/Metadorius/MapMouseSelect"
+      },
+      {
+        "name": "releases",
+        "url": "https://github.com/Metadorius/MapMouseSelect/releases"
+      }
+    ],
+    "authors": [
+      "Kerbiter"
+    ],
+    "isClientOrServer": "Client",
+    "githubOwner": "Metadorius",
+    "githubRepoName": "MapMouseSelect",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "com.kerbiter.mapmouseselect_v0.3.0.zip",
+        "version": "0.3.0",
+        "category": "Release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/Metadorius/MapMouseSelect/releases/download/v0.3.0/com.kerbiter.mapmouseselect_v0.3.0.zip",
+        "hash": "sha256:5021850f8fe50d34812d9a4e3ae998a2d3abfee774c25e794b0443793660c939",
+        "dependencies": [],
+        "incompatibilities": []
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/Metadorius/MapMouseSelect/6e08c30fd6d5315d6ce84650c2f91956e2cb7ab7/docs/media/icon.png",
+    "imageHash": "adfedc00aa6e4f1a3f1ed94552dcc9298de1dc2e6663cbd82718a104899352b1",
+    "downloadCount": 46
+  },
+  {
     "id": "MeridianWorks",
     "displayName": "Meridian Works",
     "description": "A guided weapon pack from the Meridian Combine, an arms exporter that sells to both sides. Twelve rounds: radar and heat seeking air to air missiles, optical, laser and anti radiation air to ground missiles, glide and penetrator bombs, and an infrared rocket pod that shoots down incoming missiles. Each has its own pylon and weapon bay fittings across the roster, offered only where an aircraft already carries something of the same size and weight. They appear in the Encyclopedia, AI flights carry them, and carrying any Meridian mount raises the aircraft's lased target limit to six as a floor rather than a bonus, so it will not compound with another mod that raises the same limit. Requires Blueprinter. The asset bundle ships inside the DLL, so it is one file.",
@@ -9186,6 +9379,7 @@
       "Weapon",
       "blueprinter"
     ],
+    "isClientOrServer": "Both",
     "urls": [
       {
         "name": "info",
@@ -9290,7 +9484,7 @@
         ]
       }
     ],
-    "downloadCount": 5141
+    "downloadCount": 5171
   },
   {
     "id": "MFDCustomizer",
@@ -9398,7 +9592,63 @@
         "downloadUrl": "https://github.com/9138noms/NuclearOption-MFDVideoPlayer/releases/download/v2.0.0/MFDVideoPlayer.dll"
       }
     ],
-    "downloadCount": 1927
+    "downloadCount": 1928
+  },
+  {
+    "id": "MiG29Fulcrum",
+    "displayName": "MiG-29 Fulcrum",
+    "description": "A flyable MiG-29 (9.12) with its own flight model tuned to real-world data, a cockpit modelled from scratch where every instrument works (20 needles, a rolling attitude ball, HSI, 24-light caution panel, SPO-15 radar warning receiver, gear lights), R-27R / R-27T / R-73 / R-60M missiles, the GSh-30-1 cannon, droppable PTB-1500 / PTB-1150 fuel tanks, flares and radar chaff from its own tail-boom dispensers, a working canopy and gear doors, its own damage display and four liveries.",
+    "tags": [
+      "mod",
+      "aircraft",
+      "blueprinter"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/IornMan1213/MiG29-NuclearOption/blob/main/README.md"
+      },
+      {
+        "name": "project page",
+        "url": "https://iornman1213.github.io/MiG29-NuclearOption/"
+      }
+    ],
+    "authors": [
+      "IornMan1213"
+    ],
+    "isClientOrServer": "Both",
+    "githubOwner": "IornMan1213",
+    "githubRepoName": "MiG29-NuclearOption",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "MiG-29-Fulcrum_0.8.0.zip",
+        "version": "0.8.0",
+        "category": "release",
+        "type": "addon",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/IornMan1213/MiG29-NuclearOption/releases/download/v0.8.0/MiG-29-Fulcrum_0.8.0.zip",
+        "hash": "sha256:a3d78dcea646925f7c0dd8963af5a5224af508d8fe3e5759a59da88be97b4550",
+        "extends": {
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "fileName": "MiG-29-Fulcrum_0.7.1.zip",
+        "version": "0.7.1",
+        "category": "release",
+        "type": "addon",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/IornMan1213/MiG29-NuclearOption/releases/download/v0.7.1/MiG-29-Fulcrum_0.7.1.zip",
+        "hash": "sha256:de94a421e1e3e228f5f9ece893e75b1333fb6311ff78945bdf45711224036e39",
+        "extends": {
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
+        }
+      }
+    ],
+    "downloadCount": 11
   },
   {
     "id": "MissileCamera",
@@ -9449,7 +9699,7 @@
         "hash": "sha256:0ece977a524ed76bf99b79704e661fdf9f3dea74cddcaafa9e558d36b0640c56"
       }
     ],
-    "downloadCount": 5563,
+    "downloadCount": 5577,
     "isClientOrServer": "Both"
   },
   {
@@ -9549,7 +9799,7 @@
         ]
       }
     ],
-    "downloadCount": 1645,
+    "downloadCount": 1647,
     "isClientOrServer": "Client"
   },
   {
@@ -9788,7 +10038,7 @@
         "hash": "sha256:25710f1307ccff0a3238adf5921ddb5f99229722141d1cdd275d368077908784"
       }
     ],
-    "downloadCount": 8144
+    "downloadCount": 8179
   },
   {
     "id": "MusicRandomizer",
@@ -9839,7 +10089,184 @@
         "hash": "sha256:63ca906086784554adc354fedabc2628e921c36b1aa840a5061f0245bb62c224"
       }
     ],
-    "downloadCount": 266
+    "downloadCount": 268
+  },
+  {
+    "id": "NavalPower",
+    "displayName": "Naval Power",
+    "description": "Command ships, airfields and their air wings, Sea Power style: task forces in formation, named air wings that fly and fight together, strikes, escorts, manual weapons, ROE, EMCON, damage control, carrier and airfield flight operations, camera feeds, and taking the controls yourself. Commanding requires single-player or the mission host.",
+    "tags": [
+      "Ship",
+      "Command",
+      "QoL"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/ghost225/NOnaval_power"
+      }
+    ],
+    "authors": [
+      "ghost225"
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/ghost225/NOnaval_power/75ab7723a0d2ef4d8072eae3dd354d5d80095b26/assets/icon.png",
+    "imageHash": "11c6a5c14457ce85337bd2e8b10323cd28c8b65673a4945ff71a9aba0eda1634",
+    "githubOwner": "ghost225",
+    "githubRepoName": "NOnaval_power",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "NavalPower.dll",
+        "version": "1.0.7",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v1.0.7/NavalPower.dll",
+        "hash": "sha256:b718474b522f3a33c7ef703c2a923cf2bc7ffeba60f06e33ed6f465a11d2af0c",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      },
+      {
+        "fileName": "NavalPower.dll",
+        "version": "1.0.6",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v1.0.6/NavalPower.dll",
+        "hash": "sha256:1030b9e89cccc8ef0811d6843b3f2b0cdda1be926ffbf2fbac2ba92a61db9aa6",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      },
+      {
+        "fileName": "NavalPower.dll",
+        "version": "1.0.5",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v1.0.5/NavalPower.dll",
+        "hash": "sha256:594fe5b396715983afc1fa165cdf65faf2c7b2f9d5599f9b85cb057bb451bf8a",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      },
+      {
+        "fileName": "NavalPower.dll",
+        "version": "1.0.4",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v1.0.4/NavalPower.dll",
+        "hash": "sha256:937ef4c6dd9c81942d96ed44df77702eb75ac788495823df1456e980decc9ad2",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      },
+      {
+        "fileName": "NavalPower.dll",
+        "version": "1.0.3",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v1.0.3/NavalPower.dll",
+        "hash": "sha256:4f9b1a3a9d6d2ba522ce0b3fcf67c91e74fba08a878c4697661464d3a9f0987f",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      },
+      {
+        "fileName": "NavalPower.dll",
+        "version": "1.0.2",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v1.0.2/NavalPower.dll",
+        "hash": "sha256:18caa61785e5e0aa6351dae52bce5083f0db0322021b1b1dd6216b4d453c91a5",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      },
+      {
+        "fileName": "NavalPower.dll",
+        "version": "1.0.1",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v1.0.1/NavalPower.dll",
+        "hash": "sha256:8935c5eab864b11d97853c09ad4bb57e10e12e8691341e7643854e55d56398a9",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      },
+      {
+        "fileName": "NavalPower.dll",
+        "version": "1.0.0",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v1.0.0/NavalPower.dll",
+        "hash": "sha256:19038c142d6ab187e15733554461ef2a0b03342155fce398611dd302167444d2",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      },
+      {
+        "fileName": "NavalPower.dll",
+        "version": "0.1.2",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v0.1.2/NavalPower.dll",
+        "hash": "sha256:3ec04df13b21a9adfb83ecc3ec61f9f0c3eda32e4b89c6149aa46d4674ae46c6",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      },
+      {
+        "fileName": "NavalPower.dll",
+        "version": "0.1.1",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.1",
+        "downloadUrl": "https://github.com/ghost225/NOnaval_power/releases/download/v0.1.1/NavalPower.dll",
+        "hash": "sha256:57f5ca908f0e2c4a0ce7941f19b0f30cfa43b6defb2e511435b44a21bd4d23ab",
+        "incompatibilities": [
+          {
+            "id": "com.resolute.command",
+            "version": "0.1.8"
+          }
+        ]
+      }
+    ],
+    "downloadCount": 376
   },
   {
     "id": "neutral.alarmsystem",
@@ -9881,7 +10308,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 3210
+    "downloadCount": 3221
   },
   {
     "id": "neutral.both.brakes",
@@ -9955,7 +10382,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 588
+    "downloadCount": 590
   },
   {
     "id": "neutral.keybinded.filter",
@@ -10020,7 +10447,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 123
+    "downloadCount": 124
   },
   {
     "id": "neutral.rain",
@@ -10071,7 +10498,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 5554
+    "downloadCount": 5562
   },
   {
     "id": "neutral.sline",
@@ -10172,7 +10599,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 904
+    "downloadCount": 905
   },
   {
     "id": "neutral.surface.loadout",
@@ -10213,7 +10640,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 659
+    "downloadCount": 660
   },
   {
     "id": "neutral.torpedo",
@@ -10254,7 +10681,7 @@
         "category": "Release"
       }
     ],
-    "downloadCount": 8566
+    "downloadCount": 8578
   },
   {
     "id": "NO_ChatUI",
@@ -10374,7 +10801,51 @@
         ]
       }
     ],
-    "downloadCount": 741
+    "downloadCount": 743
+  },
+  {
+    "id": "NO_Tactitools-plus",
+    "displayName": "NO TactiTools (plus)",
+    "description": "A fork of Nuclear Option Tactical Tools with many, many additional QoL features.",
+    "tags": [
+      "mod",
+      "QoL"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/yessidor/NO_Tactitools"
+      }
+    ],
+    "authors": [
+      "yessidor"
+    ],
+    "isClientOrServer": "Client",
+    "githubOwner": "yessidor",
+    "githubRepoName": "NO_Tactitools",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "NOTT-PLUS_0.7.33.1.zip",
+        "version": "0.7.33.1",
+        "category": "Release",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/yessidor/NO_Tactitools/releases/download/0.7.33.1/NOTT-PLUS_0.7.33.1.zip",
+        "hash": "sha256:2b7f27681b71476c6ffaa2606605b61087b5f4fda4c1212e122a478c8ee545e2",
+        "dependencies": [
+          {
+            "id": "no-autopilot-mod",
+            "version": "5.6.0"
+          },
+          {
+            "id": "BepInEx.ConfigurationManager",
+            "version": "18.4.1"
+          }
+        ]
+      }
+    ],
+    "downloadCount": 92
   },
   {
     "id": "NO_Tactitools",
@@ -10569,7 +11040,7 @@
         ]
       }
     ],
-    "downloadCount": 22209
+    "downloadCount": 22215
   },
   {
     "id": "no-autopilot-mod",
@@ -10974,7 +11445,7 @@
         "hash": "sha256:f526584e61ed46c25d10a0b46319f9e901fc5917d73dfcccc3aebb5ee0acaa5c"
       }
     ],
-    "downloadCount": 34961
+    "downloadCount": 35004
   },
   {
     "id": "NO-MissionMenuSearch",
@@ -11006,7 +11477,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 999
+    "downloadCount": 1000
   },
   {
     "id": "NO-MoarLasers",
@@ -11170,7 +11641,7 @@
     "imageUrl": "https://www.tacview.net/img/ico-tacview.png",
     "imageHash": "ce9298cdcef30b7694a2dcc58bc50222b9b41954da553ff6588133964df605fa",
     "isClientOrServer": "Both",
-    "downloadCount": 6892
+    "downloadCount": 6896
   },
   {
     "id": "NOCobra",
@@ -11531,7 +12002,7 @@
         "hash": "sha256:dcad92ae51da5b46f38e709c81d07a8f448b2f08243a78b3814a28e137238af7"
       }
     ],
-    "downloadCount": 819
+    "downloadCount": 835
   },
   {
     "id": "NOCustomMaps.SwissAlps",
@@ -11569,7 +12040,7 @@
         }
       }
     ],
-    "downloadCount": 1104
+    "downloadCount": 1134
   },
   {
     "id": "NOFFB",
@@ -11710,7 +12181,7 @@
         ]
       }
     ],
-    "downloadCount": 4597
+    "downloadCount": 4600
   },
   {
     "id": "NOImmersiveRearmer",
@@ -11848,7 +12319,84 @@
         "hash": "sha256:d5097c29370682ad2e02ce56baf73de184d9afa2a3ebab8b9116b3bdf2058b3d"
       }
     ],
-    "downloadCount": 1183
+    "downloadCount": 1186
+  },
+  {
+    "id": "NoMapOverhaul",
+    "displayName": "NO Map Overhaul",
+    "description": "Map mod. Draws friendly runways with their numbers on the minimap and full map, a dashed approach line and a RWY callout for ATC on the runway you're lined up on, planning tools on the full map (bearing and range, range circles, notes that tag contacts, a pen, and a waypoint route), and optional airbase names. Formerly Baanish UI Improvements.",
+    "tags": [
+      "QoL",
+      "UI"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/baanish/NO-Map-Overhaul"
+      }
+    ],
+    "authors": [
+      "baanish"
+    ],
+    "isClientOrServer": "Client",
+    "githubOwner": "baanish",
+    "githubRepoName": "NO-Map-Overhaul",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "NoMapOverhaul-v0.5.1-nomm.zip",
+        "version": "0.5.1",
+        "category": "preRelease",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/baanish/NO-Map-Overhaul/releases/download/v0.5.1/NoMapOverhaul-v0.5.1-nomm.zip",
+        "hash": "sha256:a710e3b026e956a538cbf5a48faa94527ee38780f36f89a3bd53f9e3c7c9cd71"
+      },
+      {
+        "fileName": "NoMapOverhaul-v0.5.0-nomm.zip",
+        "version": "0.5.0",
+        "category": "preRelease",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/baanish/NO-Map-Overhaul/releases/download/v0.5.0/NoMapOverhaul-v0.5.0-nomm.zip",
+        "hash": "sha256:d7aba3f84cd835eaa5a84ff1e1fd4b068b32c4f5d6742051bdba99c7d57428e7"
+      }
+    ],
+    "downloadCount": 37
+  },
+  {
+    "id": "NoMissileIndicators",
+    "displayName": "NO Missile Indicators",
+    "description": "A red arrow on the screen edge toward each incoming missile outside your view, pointing the way to turn. Only missiles the game's missile warning already knows about get one. Off in player-versus-player games unless you allow it.",
+    "tags": [
+      "QoL",
+      "UI"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/baanish/NO-Missile-Indicators"
+      }
+    ],
+    "authors": [
+      "baanish"
+    ],
+    "isClientOrServer": "Client",
+    "githubOwner": "baanish",
+    "githubRepoName": "NO-Missile-Indicators",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "NoMissileIndicators-v0.1.0-nomm.zip",
+        "version": "0.1.0",
+        "category": "preRelease",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/baanish/NO-Missile-Indicators/releases/download/v0.1.0/NoMissileIndicators-v0.1.0-nomm.zip",
+        "hash": "sha256:b2a46d825f3c3d16fa2d08759e1a76ca05d999ca8999cf58de444e01db6bc7bb"
+      }
+    ],
+    "downloadCount": 10
   },
   {
     "id": "NoModBar",
@@ -11925,7 +12473,7 @@
         "hash": "sha256:8b0e872ccc584840c971255cd849c08d347a86d762d88058592c38243767bfd2"
       }
     ],
-    "downloadCount": 185
+    "downloadCount": 187
   },
   {
     "id": "NoSmoothTime",
@@ -11980,7 +12528,7 @@
         "hash": "sha256:7f4094305adf9fda13233bfb021a706413a50c174a0c7f49d17af5ac58ebfe31"
       }
     ],
-    "downloadCount": 766,
+    "downloadCount": 771,
     "isClientOrServer": "Both"
   },
   {
@@ -12026,7 +12574,7 @@
         "incompatibilities": []
       }
     ],
-    "downloadCount": 203
+    "downloadCount": 204
   },
   {
     "id": "NOVor",
@@ -12070,7 +12618,7 @@
         "hash": "sha256:5b2f92e108a326c96f66b54da1b2c3e89c62e9ec7738a9c1167d9100821ba87e"
       }
     ],
-    "downloadCount": 279
+    "downloadCount": 281
   },
   {
     "id": "NOVRMod",
@@ -12187,6 +12735,21 @@
     "artifacts": [
       {
         "fileName": "NoWingmen.dll",
+        "version": "2.2.1",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/NiJeTi/NoWingmen/releases/download/v2.2.1/NoWingmen.dll",
+        "hash": "sha256:26e7619be3c75774b40292dd78b7c9383c46e24fb06eb37d6cc2b388ce484e24",
+        "dependencies": [
+          {
+            "id": "InputFramework",
+            "version": "0.0.2"
+          }
+        ]
+      },
+      {
+        "fileName": "NoWingmen.dll",
         "version": "2.2.0",
         "category": "release",
         "type": "plugin",
@@ -12279,7 +12842,7 @@
         "hash": "sha256:d22fe9e8e1f67aacf64bf7abfbb7eaf04e65d3914428b6337a65f58813794398"
       }
     ],
-    "downloadCount": 1031
+    "downloadCount": 1033
   },
   {
     "id": "NOWinWingBridge",
@@ -12507,7 +13070,7 @@
         ]
       }
     ],
-    "downloadCount": 21472
+    "downloadCount": 21483
   },
   {
     "id": "NOXMFD",
@@ -12530,6 +13093,24 @@
     "githubRepoName": "NOXMFD",
     "autoUpdateArtifacts": "True",
     "artifacts": [
+      {
+        "fileName": "NOXMFD_0.70.0.zip",
+        "version": "0.70.0",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/roke77/NOXMFD/releases/download/0.70.0/NOXMFD_0.70.0.zip",
+        "hash": "sha256:66a17c7b5111a5f5bf408bb7c12e0bbc03436e4d0771e9781c8623ce0751a3ae"
+      },
+      {
+        "fileName": "NOXMFD_0.69.4.zip",
+        "version": "0.69.4",
+        "category": "release",
+        "type": "plugin",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/roke77/NOXMFD/releases/download/0.69.4/NOXMFD_0.69.4.zip",
+        "hash": "sha256:c3fbadfd9d035edb48937dabdd7327947127764eaba4d537f3930955e9ccfbbd"
+      },
       {
         "fileName": "NOXMFD_0.69.3.zip",
         "version": "0.69.3",
@@ -13541,7 +14122,7 @@
     ],
     "imageUrl": "https://raw.githubusercontent.com/roke77/NOXMFD/main/docs/images/icon.png",
     "imageHash": "c8cbf823cb5147537769080ef8753109bf1bac3515d17d1c70af68c336294de0",
-    "downloadCount": 5588
+    "downloadCount": 5601
   },
   {
     "id": "Nuclear-Option-Mod-WingmanVisual",
@@ -13592,7 +14173,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 6185
+    "downloadCount": 6187
   },
   {
     "id": "NuclearOption-InfiniteAmmo",
@@ -13654,7 +14235,7 @@
         "hash": "sha256:2408fe71dbf38ec325cc22feec1a75b59849bd29933a4e6131df62273f4a950e"
       }
     ],
-    "downloadCount": 3587
+    "downloadCount": 3590
   },
   {
     "id": "NuclearOption-MFDBlockBlast",
@@ -13891,7 +14472,7 @@
         ]
       }
     ],
-    "downloadCount": 6060
+    "downloadCount": 6064
   },
   {
     "id": "NuclearOption-Simple-Missile-Bomb-Tracker-and-Tac-Map-Trails",
@@ -13936,7 +14517,7 @@
         "dependencies": []
       }
     ],
-    "downloadCount": 742
+    "downloadCount": 745
   },
   {
     "id": "NuclearOption-Target-Group-Recall-and-Missile-Defense",
@@ -14007,7 +14588,7 @@
         "dependencies": []
       }
     ],
-    "downloadCount": 340
+    "downloadCount": 341
   },
   {
     "id": "NuclearOptionBuilder",
@@ -14070,7 +14651,7 @@
         ]
       }
     ],
-    "downloadCount": 817
+    "downloadCount": 818
   },
   {
     "id": "NuclearOptionCommander",
@@ -14108,7 +14689,7 @@
         ]
       }
     ],
-    "downloadCount": 2431
+    "downloadCount": 2438
   },
   {
     "id": "NuclearOptionControllerTuner",
@@ -14231,7 +14812,7 @@
         "hash": "sha256:b57ff0cae168fccb1b6e927d4b9bc2681f244b70c5c6e40b28d6d01eb82d3011"
       }
     ],
-    "downloadCount": 429
+    "downloadCount": 432
   },
   {
     "id": "NuclearOptionVRFix",
@@ -14420,7 +15001,7 @@
         "hash": "sha256:a9931eab5c593e3d3f5676a16ddf54fd0b5e54e06f226fb7695d698602bad50a"
       }
     ],
-    "downloadCount": 24549
+    "downloadCount": 24657
   },
   {
     "id": "NuclearVOIP",
@@ -14504,7 +15085,7 @@
         ]
       }
     ],
-    "downloadCount": 3548
+    "downloadCount": 3552
   },
   {
     "id": "OneLife",
@@ -14653,7 +15234,7 @@
         "category": "release"
       }
     ],
-    "downloadCount": 1634
+    "downloadCount": 1637
   },
   {
     "id": "Ornithopter",
@@ -14791,7 +15372,7 @@
         "hash": "sha256:9829adb5135f08d0b129453cb685628a7def130371f8f9770f5d3baf28feb66e"
       }
     ],
-    "downloadCount": 11044
+    "downloadCount": 11048
   },
   {
     "id": "Pauel3312.NOKillWeapons",
@@ -14851,7 +15432,7 @@
         "hash": "sha256:b8899af8d033a66218213b8a041f3d6ca5eddcb21e6617205822eab7cbdd477e"
       }
     ],
-    "downloadCount": 2880
+    "downloadCount": 2882
   },
   {
     "id": "Pauel3312.NOMissingWeapons",
@@ -14911,7 +15492,7 @@
         "hash": "sha256:5a0d349411bfc2eccffdf0cfa29d82c2563766f52da82326a56ab9d639322af4"
       }
     ],
-    "downloadCount": 2676
+    "downloadCount": 2679
   },
   {
     "id": "Pauel3312.PauelsRandomFixes",
@@ -15016,7 +15597,7 @@
         "hash": "sha256:141f8733266f619096b85699271f673c1afc0404d30912d3c25817f2c9b22756"
       }
     ],
-    "downloadCount": 1923
+    "downloadCount": 1929
   },
   {
     "id": "PilotModelReplacer",
@@ -15048,7 +15629,7 @@
         "hash": "sha256:33076f4deceb06291c07c70a1ce0541548f99b882bdf6f5722d02a30898878c3"
       }
     ],
-    "downloadCount": 356
+    "downloadCount": 357
   },
   {
     "id": "pixy_voice",
@@ -15083,6 +15664,84 @@
       }
     ],
     "downloadCount": 0
+  },
+  {
+    "id": "PoseidonTELRuntime",
+    "displayName": "R-460 Poseidon",
+    "description": "Anti-ship cruise missile for aircraft and a mobile TEL launcher with naval target filtering.",
+    "tags": [
+      "mod",
+      "Weapon",
+      "vehicle",
+      "blueprinter"
+    ],
+    "urls": [
+      {
+        "name": "info",
+        "url": "https://github.com/XBarni999/R-460-Poseidon/blob/main/README.md"
+      }
+    ],
+    "authors": [
+      "XBarni999"
+    ],
+    "githubOwner": "XBarni999",
+    "githubRepoName": "R-460-Poseidon",
+    "autoUpdateArtifacts": "True",
+    "artifacts": [
+      {
+        "fileName": "R-460.Poseidon_1.5.2.zip",
+        "version": "1.5.2",
+        "category": "release",
+        "type": "addon",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/XBarni999/R-460-Poseidon/releases/download/v1.5.2/R-460.Poseidon_1.5.2.zip",
+        "hash": "sha256:0157b8d0f351bc2e618caf41089f865ac987a941aa6bc8a1e3345e87f21152de",
+        "extends": {
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "fileName": "R-460.Poseidon_1.5.1.zip",
+        "version": "1.5.1",
+        "category": "release",
+        "type": "addon",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/XBarni999/R-460-Poseidon/releases/download/v1.5.1/R-460.Poseidon_1.5.1.zip",
+        "hash": "sha256:53a32ee02ea9cb5d386adb682952d779beba67ab4f464f7f89bf4c1ae5a4a073",
+        "extends": {
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "fileName": "R-460-Poseidon-v1.5.0.zip",
+        "version": "1.5.0",
+        "category": "release",
+        "type": "addon",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/XBarni999/R-460-Poseidon/releases/download/v1.5.0/R-460-Poseidon-v1.5.0.zip",
+        "hash": "sha256:b216830b9d5af7aeb37c0e2de311e760e8196365a7fb7e58f218efdede574438",
+        "extends": {
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "fileName": "R-460.Poseidon_1.4.5.zip",
+        "version": "1.4.5",
+        "category": "release",
+        "type": "addon",
+        "gameVersion": "0.34.2",
+        "downloadUrl": "https://github.com/XBarni999/R-460-Poseidon/releases/tag/v1.4.5/R-460.Poseidon_1.4.5.zip",
+        "hash": "sha256:c70001010ddab129da02e0b7a47e4638a0a31713114b9b74e0d9592e9b1d86e4",
+        "extends": {
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
+        }
+      }
+    ],
+    "downloadCount": 157
   },
   {
     "id": "prez_voice",
@@ -15142,22 +15801,28 @@
     "autoUpdateArtifacts": "True",
     "artifacts": [
       {
-        "fileName": "quartermaster.json",
+        "fileName": "QuartermasterMod.zip",
         "version": "1.4.0",
         "category": "release",
         "type": "plugin",
         "gameVersion": "0.34.2",
-        "downloadUrl": "https://github.com/mosdef31/NO-Quartermaster/releases/download/v1.4.0/quartermaster.json",
-        "hash": "sha256:1f417c0b976ebbb74b45f1fc575933d1582f66058928b563789d5c2dacfafe3a"
+        "downloadUrl": "https://github.com/mosdef31/NO-Quartermaster/releases/download/v1.4.0/QuartermasterMod.zip",
+        "hash": "sha256:0c3cf5089bec972e3c0bbdebf31bc64c162cef0f267729ab853c95cd9fbf8356",
+        "dependencies": [
+          {
+            "id": "BepInEx.ConfigurationManager",
+            "version": "18.4.1"
+          }
+        ]
       },
       {
-        "fileName": "quartermaster.json",
+        "fileName": "QuartermasterMod.zip",
         "version": "1.3.0",
         "category": "release",
         "type": "plugin",
         "gameVersion": "0.34.2",
-        "downloadUrl": "https://github.com/mosdef31/NO-Quartermaster/releases/download/v1.3.0/quartermaster.json",
-        "hash": "sha256:1f417c0b976ebbb74b45f1fc575933d1582f66058928b563789d5c2dacfafe3a"
+        "downloadUrl": "https://github.com/mosdef31/NO-Quartermaster/releases/download/v1.3.0/QuartermasterMod.zip",
+        "hash": "sha256:c1a79149a33c8f612ea9a4df7386b8a07f582e2e2b2afffeca17a2f736bddde5"
       },
       {
         "fileName": "QuartermasterMod.zip",
@@ -15169,7 +15834,7 @@
         "hash": "sha256:4b5273c9d525ffc2d1881429e885bb2b66dc43885188a1fd00322f4f698d5cb1"
       }
     ],
-    "downloadCount": 529,
+    "downloadCount": 530,
     "imageUrl": "https://raw.githubusercontent.com/mosdef31/NO-Quartermaster/main/images/quartermaster_icon_512.png",
     "imageHash": "76ef5cf07020708a564a0f6c47236fcb53d510750229005ac80372e53357860d"
   },
@@ -15211,7 +15876,7 @@
         "downloadUrl": "https://github.com/9138noms/NuclearOption-RepairProgress/releases/download/v1.0.0/RepairProgress.zip"
       }
     ],
-    "downloadCount": 11238
+    "downloadCount": 11244
   },
   {
     "id": "RepeatTakeoffMusic",
@@ -15249,7 +15914,7 @@
         "hash": "sha256:08dd8400304cc5b6d18ee26611879a39f89709e3140f2dc28f6528008ad38ea2"
       }
     ],
-    "downloadCount": 609
+    "downloadCount": 610
   },
   {
     "id": "RITA_RVWS",
@@ -15314,7 +15979,7 @@
         ]
       }
     ],
-    "downloadCount": 2678,
+    "downloadCount": 2681,
     "isClientOrServer": "Client",
     "imageUrl": "https://raw.githubusercontent.com/muhimin01/no-rita-rvws/refs/heads/main/RITA_icon.webp",
     "imageHash": "8856b86dd147008bf6589ceee72bcb092c64e61db742d6a1b671ecdd7d0ef2eb"
@@ -15368,7 +16033,7 @@
         "hash": "sha256:28596c0f68258f3e4d024c0ed89c8b5653fd86b1e619f945f9f7080ee6859734"
       }
     ],
-    "downloadCount": 138022,
+    "downloadCount": 138044,
     "isClientOrServer": "Client"
   },
   {
@@ -15410,7 +16075,7 @@
         "hash": "sha256:a1038722ff26f04ba99bf56151892e123370f73ecbc8ae2967d6887dae8617f9"
       }
     ],
-    "downloadCount": 3670
+    "downloadCount": 3674
   },
   {
     "id": "Sitrep",
@@ -15546,7 +16211,7 @@
         "downloadUrl": "https://github.com/9138noms/NuclearOption-SmokeTrail/releases/download/v2.1.0/SmokeTrail.dll"
       }
     ],
-    "downloadCount": 1660
+    "downloadCount": 1661
   },
   {
     "id": "SplitThrottle",
@@ -15620,7 +16285,7 @@
         "hash": "sha256:b1fb596a4a883aa1bfdb616bed0210c9c3c44d4d771601db5120e0c600010051"
       }
     ],
-    "downloadCount": 488
+    "downloadCount": 489
   },
   {
     "id": "TargetCamControl",
@@ -15690,7 +16355,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 5973
+    "downloadCount": 5975
   },
   {
     "id": "TBMMWC",
@@ -15746,7 +16411,7 @@
         }
       }
     ],
-    "downloadCount": 1963
+    "downloadCount": 1971
   },
   {
     "id": "TernionVaporTuner",
@@ -15818,7 +16483,7 @@
         ]
       }
     ],
-    "downloadCount": 3848
+    "downloadCount": 3850
   },
   {
     "id": "ThirdFaction",
@@ -15965,7 +16630,7 @@
         "downloadUrl": "https://github.com/9138noms/ThirdFaction/releases/download/v1.0.0/ThirdFaction.dll"
       }
     ],
-    "downloadCount": 5856
+    "downloadCount": 5860
   },
   {
     "id": "ThirdPersonHUDPlusStandalone",
@@ -16023,7 +16688,7 @@
         ]
       }
     ],
-    "downloadCount": 1108
+    "downloadCount": 1110
   },
   {
     "id": "UndelayedThrottle",
@@ -16160,7 +16825,7 @@
         ]
       }
     ],
-    "downloadCount": 9022
+    "downloadCount": 9030
   },
   {
     "id": "uuvr",
@@ -16223,7 +16888,7 @@
         "downloadUrl": "https://github.com/9138noms/NuclearOption-VehicleControl/releases/download/v2.3.2/VehicleControl.zip"
       }
     ],
-    "downloadCount": 8757
+    "downloadCount": 8760
   },
   {
     "id": "vet.solar.biological",
@@ -16271,7 +16936,7 @@
     ],
     "imageUrl": "https://raw.githubusercontent.com/SolarDyn/Assets/refs/heads/main/icon/NuclearPlus.png",
     "imageHash": "a2fe8adf88a226a726616865ba477891e79607637f5e11689464363b79dda53a",
-    "downloadCount": 232
+    "downloadCount": 238
   },
   {
     "id": "vet.solar.chemical",
@@ -16322,7 +16987,7 @@
     ],
     "imageUrl": "https://raw.githubusercontent.com/SolarDyn/Assets/refs/heads/main/icon/FuelLeak.png",
     "imageHash": "ba3282a0a0095ba19a08382507e946dbbb703296f191e3250ca1c231ccb3da4c",
-    "downloadCount": 226
+    "downloadCount": 231
   },
   {
     "id": "vet.solar.collimatedhud",
@@ -16367,7 +17032,7 @@
     ],
     "imageUrl": "https://raw.githubusercontent.com/SolarDyn/Assets/refs/heads/main/icon/CollimatedHUD.png",
     "imageHash": "a50838ad4f1c39eea75fbde2cb0f6769659dc69c25550478eff20a082e3f4d56",
-    "downloadCount": 305
+    "downloadCount": 312
   },
   {
     "id": "WeatherController",
@@ -16398,7 +17063,7 @@
         "downloadUrl": "https://github.com/9138noms/NuclearOption-WeatherController/releases/download/v3.0.0/WeatherController_v3.0.0.zip"
       }
     ],
-    "downloadCount": 4233
+    "downloadCount": 4235
   },
   {
     "id": "WingCommand",
@@ -16514,7 +17179,7 @@
         "hash": "sha256:a5ca9f18d2ef36a3729b4a24eafd0d1adf56ba7d8495cbcb929a3413caca9671"
       }
     ],
-    "downloadCount": 2843
+    "downloadCount": 2855
   },
   {
     "id": "WSOYappinator",
@@ -16547,7 +17212,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 15060
+    "downloadCount": 15070
   },
   {
     "id": "YawOnMouse",
@@ -16615,7 +17280,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 1544
+    "downloadCount": 1545
   },
   {
     "id": "Zorduzd",
