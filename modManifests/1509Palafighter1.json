@@ -1,0 +1,41 @@
+{
+  "id": "1509PhoenixShipPack",
+  "displayName": "Phoenix's ShipPack",
+  "description": "The KR-33 Agni. a rank 3 A2A focused multi role jet for PALA.",
+  "tags": [
+    "mod",
+    "Aircraft",
+    "blueprinter",
+    "phoenix1509"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/phoenix15099/KR-33/blob/main/README.md"
+    }
+  ],
+  "authors": [
+    "Phoenix1509",
+	"KermiGodFrog"
+	"Javiairplane",
+	"OliveFox",
+    "the science team (BetaTesters)"
+  ],
+  "githubOwner": "phoenix15099",
+  "githubRepoName": "KR-33",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "1509PalaFighter1_1.0.0.nobp",
+      "version": "1.0.0",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/phoenix15099/KR-33/releases/latest",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "2.0.1"
+      }
+    }
+  ],
+}
