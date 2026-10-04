@@ -1,7 +1,7 @@
 [
   {
     "id": "1509_PalaFighter1",
-    "displayName": "Phoenix's ShipPack",
+    "displayName": "KR-33 Agni",
     "description": "The KR-33 Agni. a rank 3 A2A focused multi role jet for PALA.",
     "tags": [
       "mod",
@@ -42,7 +42,7 @@
   },
   {
     "id": "1509_PalaFighter1",
-    "displayName": "Phoenix's ShipPack",
+    "displayName": "KR-33 Agni",
     "description": "The KR-33 Agni. a rank 3 A2A focused multi role jet for PALA.",
     "tags": [
       "mod",
@@ -157,7 +157,7 @@
         }
       }
     ],
-    "downloadCount": 9183
+    "downloadCount": 9184
   },
   {
     "id": "155mmRailgun",
@@ -1257,7 +1257,7 @@
         }
       }
     ],
-    "downloadCount": 67617
+    "downloadCount": 67623
   },
   {
     "id": "aryx.fs41",
@@ -1508,7 +1508,7 @@
         }
       }
     ],
-    "downloadCount": 70203
+    "downloadCount": 70208
   },
   {
     "id": "aryx.mc260",
@@ -2053,7 +2053,7 @@
         }
       }
     ],
-    "downloadCount": 35388
+    "downloadCount": 35389
   },
   {
     "id": "aryx.oa27",
@@ -2295,7 +2295,7 @@
         }
       }
     ],
-    "downloadCount": 70577
+    "downloadCount": 70582
   },
   {
     "id": "aryx.weaponpack",
@@ -4387,7 +4387,7 @@
         "hash": "sha256:1ce74fc011e60199c4f98ca8c05d154e5be21470e0ebc336097890ac9f49a4da"
       }
     ],
-    "downloadCount": 3319
+    "downloadCount": 3320
   },
   {
     "id": "Com.Hellcat92.TargetGridRefHUD",
@@ -4472,7 +4472,7 @@
         ]
       }
     ],
-    "downloadCount": 1647
+    "downloadCount": 1648
   },
   {
     "id": "Com.Hellcat92.VanillaIconsPLUS",
@@ -4639,7 +4639,7 @@
         "hash": "sha256:24b75fbcd9b8e930f3edfde6879549d72d90b9083d7a386a9305d4c3e9dc6635"
       }
     ],
-    "downloadCount": 1423
+    "downloadCount": 1424
   },
   {
     "id": "com.justj7780.nuclearoption.inertia",
@@ -5601,7 +5601,7 @@
         }
       }
     ],
-    "downloadCount": 1404
+    "downloadCount": 1405
   },
   {
     "id": "dev.dikka.nuclearconnectivity",
@@ -6624,7 +6624,7 @@
         "hash": "sha256:405a157838cba3ae1b516e114c42f4bd38959cdbc498bb5d166264928a6b7c26"
       }
     ],
-    "downloadCount": 1501
+    "downloadCount": 1502
   },
   {
     "id": "jester_voice",
@@ -9869,7 +9869,7 @@
         "hash": "sha256:0ece977a524ed76bf99b79704e661fdf9f3dea74cddcaafa9e558d36b0640c56"
       }
     ],
-    "downloadCount": 5663,
+    "downloadCount": 5664,
     "isClientOrServer": "Both"
   },
   {
@@ -11645,7 +11645,7 @@
         "hash": "sha256:f526584e61ed46c25d10a0b46319f9e901fc5917d73dfcccc3aebb5ee0acaa5c"
       }
     ],
-    "downloadCount": 35205
+    "downloadCount": 35207
   },
   {
     "id": "NO-MissionMenuSearch",
@@ -12202,7 +12202,7 @@
         "hash": "sha256:dcad92ae51da5b46f38e709c81d07a8f448b2f08243a78b3814a28e137238af7"
       }
     ],
-    "downloadCount": 980
+    "downloadCount": 984
   },
   {
     "id": "NOCustomMaps.SwissAlps",
@@ -12240,7 +12240,7 @@
         }
       }
     ],
-    "downloadCount": 1375
+    "downloadCount": 1379
   },
   {
     "id": "NOFFB",
@@ -14337,7 +14337,7 @@
     ],
     "imageUrl": "https://raw.githubusercontent.com/roke77/NOXMFD/main/docs/images/icon.png",
     "imageHash": "c8cbf823cb5147537769080ef8753109bf1bac3515d17d1c70af68c336294de0",
-    "downloadCount": 5657
+    "downloadCount": 5660
   },
   {
     "id": "Nuclear-Option-Mod-WingmanVisual",
@@ -15216,7 +15216,7 @@
         "hash": "sha256:a9931eab5c593e3d3f5676a16ddf54fd0b5e54e06f226fb7695d698602bad50a"
       }
     ],
-    "downloadCount": 25198
+    "downloadCount": 25202
   },
   {
     "id": "NuclearVOIP",
@@ -17107,7 +17107,7 @@
         ]
       }
     ],
-    "downloadCount": 9098
+    "downloadCount": 9100
   },
   {
     "id": "uuvr",
@@ -17501,7 +17501,7 @@
         "hash": null
       }
     ],
-    "downloadCount": 15118
+    "downloadCount": 15119
   },
   {
     "id": "YawOnMouse",
