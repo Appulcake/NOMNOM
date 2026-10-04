@@ -31,7 +31,7 @@
       "category": "release",
       "type": "addon",
       "gameVersion": "0.34.2",
-      "downloadUrl": "https://github.com/phoenix15099/KR-33/releases/latest",
+      "downloadUrl": "https://github.com/phoenix15099/KR-33/releases/download/V1.0.0/1509_PalaFighter1_1.0.0.nobp",
       "extends": {
         "id": "com.nikkorap.blueprinter",
         "version": "2.0.1"
