@@ -22,6 +22,19 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "R-460-Poseidon-v1.5.4.zip",
+      "version": "1.5.4",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/XBarni999/R-460-Poseidon/releases/download/v1.5.4/R-460-Poseidon-v1.5.4.zip",
+      "hash": "sha256:83c2309345c0e08a6f97176a05218a9ad2e6ca0e3ad67f74c3d9e0fd0273bffd",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "2.0.1"
+      }
+    },
+    {
       "fileName": "R-460-Poseidon-v1.5.3.zip",
       "version": "1.5.3",
       "category": "release",
@@ -87,5 +100,5 @@
       }
     }
   ],
-  "downloadCount": 169
+  "downloadCount": 177
 }
