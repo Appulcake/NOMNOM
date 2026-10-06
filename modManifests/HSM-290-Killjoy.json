@@ -23,6 +23,21 @@
   "artifacts": [
     {
       "fileName": "HSM-290-Killjoy.dll",
+      "version": "1.2.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.1",
+      "downloadUrl": "https://github.com/XBarni999/HSM-290-Killjoy/releases/download/v1.2.0/HSM-290-Killjoy.dll",
+      "hash": "sha256:c1258b0a3e869abe79dd44f8a96e386ab8ca397f31c714e6e6a10f2ffd4f5413",
+      "dependencies": [
+        {
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
+        }
+      ]
+    },
+    {
+      "fileName": "HSM-290-Killjoy.dll",
       "version": "1.1.0",
       "category": "release",
       "type": "plugin",
@@ -36,5 +51,6 @@
         }
       ]
     }
-  ]
+  ],
+  "downloadCount": 70
 }
