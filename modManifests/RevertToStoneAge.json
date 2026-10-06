@@ -1,0 +1,36 @@
+{
+  "id": "RevertToStoneAge",
+  "displayName": "Revert To Stone Age",
+  "description": "Rebalances air defenses with a configurable upper blind cone for surface radars, stronger radar clutter, slower automatic turret acquisition and traverse, radar-controlled salvo timing limits, laser heat budgets, and six missile motor/actuator malfunctions. Includes visible preset values and Custom settings. Applies to player and AI weapons; preserves native missile seeker lock. Requires BepInEx.",
+  "tags": [
+    "mod",
+    "Gameplay",
+    "Balance",
+    "Weapon",
+    "Radar"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/XBarni999/Revert-To-Stone-Age"
+    }
+  ],
+  "authors": [
+    "XBarni999"
+  ],
+  "isClientOrServer": "Both",
+  "githubOwner": "XBarni999",
+  "githubRepoName": "Revert-To-Stone-Age",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "RevertToStoneAge.dll",
+      "version": "1.8.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.1",
+      "downloadUrl": "https://github.com/XBarni999/Revert-To-Stone-Age/releases/download/v1.8.0/RevertToStoneAge.dll",
+      "hash": "sha256:990fb5a50eaabe43659331c93a0d0d6e3b4fb1e0b5e07de355aa28a7102aebe1"
+    }
+  ]
+}
