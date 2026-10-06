@@ -1,6 +1,6 @@
 {
   "id": "LaunchAuthorizationPlus",
-  "displayName": "LaunchAuthorization+",
+  "displayName": "Launch Authorization+",
   "description": "Evaluates each selected target against its own launch acceptable region instead of all-or-nothing. Flags targets out of range/arc/lase, and can restrict fire to only the targets that currently qualify (Strict), with an optional one-launch-per-target mode (Strict Fire Once). Covers missiles, bombs, laser-guided weapons and glide bombs.",
   "tags": [
     "QoL"
