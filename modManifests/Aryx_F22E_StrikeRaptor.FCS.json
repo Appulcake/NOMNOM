@@ -1,7 +1,7 @@
 {
   "id": "Aryx_F22E_StrikeRaptor.FCS",
   "displayName": "F-22E Strike Raptor FCS",
-  "description": "Replaces the flight control laws of Aryx's F-22E with a fly-by-wire system: AoA command at low speed blending into G command at high speed, pitch-rate command past 36 degrees AoA in both directions, roll/yaw blending at high AoA, a low-thrust AoA cap, asymmetric-load compensation and carefree handling. Includes small CG and aerodynamic tweaks. Requires the Aryx F-22E mod. The optional DevUnlock plugin (separate release asset) exposes the debug settings.",
+  "description": "Replaces the flight control laws of Aryx's F-22E with a fly-by-wire system: AoA command at low speed blending into G command at high speed, pitch-rate command past 36 degrees AoA in both directions, roll/yaw blending at high AoA, a low-thrust AoA cap, asymmetric-load compensation and carefree handling. Includes CG and control surfaces airfoil changes. Recommend to fly with stability assits on Requires the Aryx F-22E mod. The optional DevUnlock plugin (separate release asset) exposes the debug settings.",
   "tags": [
     "mod",
     "QoL",
