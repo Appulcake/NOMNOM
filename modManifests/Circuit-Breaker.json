@@ -33,10 +33,11 @@
       "hash": "sha256:47c2179d3208ee4e5b2fa32350cb010d2516a50c905abf729f858be8a97b4340",
       "dependencies": [
         {
-          "version": "2.0.1",
-          "id": "com.nikkorap.blueprinter"
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
         }
       ]
     }
-  ]
+  ],
+  "downloadCount": 92
 }

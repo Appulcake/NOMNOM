@@ -24,6 +24,15 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "RevertToStoneAge-1.9.0.zip",
+      "version": "1.9.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.1",
+      "downloadUrl": "https://github.com/XBarni999/Revert-To-Stone-Age/releases/download/v1.9.0/RevertToStoneAge-1.9.0.zip",
+      "hash": "sha256:59d958ab78cadce1912d7d6059845faa66ad393ddae4fd975c1bad82c3bfd67a"
+    },
+    {
       "fileName": "RevertToStoneAge.dll",
       "version": "1.8.0",
       "category": "release",
@@ -32,5 +41,6 @@
       "downloadUrl": "https://github.com/XBarni999/Revert-To-Stone-Age/releases/download/v1.8.0/RevertToStoneAge.dll",
       "hash": "sha256:990fb5a50eaabe43659331c93a0d0d6e3b4fb1e0b5e07de355aa28a7102aebe1"
     }
-  ]
+  ],
+  "downloadCount": 46
 }
