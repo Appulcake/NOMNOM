@@ -21,6 +21,15 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "com.bigloude.notacmap_v1.2.0.zip",
+      "version": "1.2.0",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/Big-LouDE/NOTacMap/releases/download/v1.2.0/com.bigloude.notacmap_v1.2.0.zip",
+      "hash": "sha256:5cf9fc81ef3cdd9ce83e54ce5136c3343e13e814cc5975753560e76e3384a70b"
+    },
+    {
       "fileName": "com.bigloude.notacmap_v1.1.1.zip",
       "version": "1.1.1",
       "category": "release",
@@ -48,5 +57,5 @@
       "category": "Release"
     }
   ],
-  "downloadCount": 26
+  "downloadCount": 27
 }
