@@ -25,12 +25,12 @@
   "artifacts": [
     {
       "fileName": "Circuit-Breaker.dll",
-      "version": "0.1.15",
+      "version": "0.1.16",
       "category": "release",
       "type": "plugin",
       "gameVersion": "0.34.2",
-      "downloadUrl": "https://github.com/XBarni999/Circuit-Breaker/releases/download/v0.1.15/Circuit-Breaker.dll",
-      "hash": "sha256:2da6e1da2febc48a0b69263a7f45d6a8f3d08c8334f1bf24e445e32a30b76db3",
+      "downloadUrl": "https://github.com/XBarni999/Circuit-Breaker/releases/download/v0.1.16/Circuit-Breaker.dll",
+      "hash": "sha256:47c2179d3208ee4e5b2fa32350cb010d2516a50c905abf729f858be8a97b4340",
       "dependencies": [
         {
           "version": "2.0.1",
