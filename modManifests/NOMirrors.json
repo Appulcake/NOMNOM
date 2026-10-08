@@ -23,6 +23,15 @@
   "artifacts": [
     {
       "fileName": "NOMirrors.dll",
+      "version": "0.0.3",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/IornMan1213/NuclearOption-Mirrors/releases/download/v0.0.3/NOMirrors.dll",
+      "hash": "sha256:0107d7db2c1a80aca013d110b098bdf5b0d07ee04f9f5e2d684dc0acbed7c304"
+    },
+    {
+      "fileName": "NOMirrors.dll",
       "version": "0.0.2",
       "category": "release",
       "type": "plugin",
@@ -40,5 +49,5 @@
       "hash": "sha256:626645001525a51f2ae93e44af573e4960eb400726c468cc9a5b508eb972a96c"
     }
   ],
-  "downloadCount": 19
+  "downloadCount": 29
 }
