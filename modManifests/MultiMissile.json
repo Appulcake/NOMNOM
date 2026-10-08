@@ -1,7 +1,7 @@
 {
   "id": "MultiMissile",
   "displayName": "MultiMissile",
-  "description": "Adds various missiles to Nuclear Option, currently all real-world service missiles.",
+  "description": "A comprehensive missile and weaponry expansion for Nuclear Option vehicles. It supports many vehicle platforms, vanilla and modded, with a wide range of missiles, including the world-famous AIM-120D AMRAAM.",
   "tags": [
     "mod",
     "Combat",
