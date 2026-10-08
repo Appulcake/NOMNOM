@@ -19,7 +19,7 @@
   ],
   "githubOwner": "iallemege",
   "githubRepoName": "Oritasy-System",
-  "autoUpdateArtifacts": "True",
+  "autoUpdateArtifacts": "False",
   "isClientOrServer": "Both",
   "artifacts": [
     {
