@@ -14,7 +14,7 @@
     },
     {
       "name": "release",
-      "url": "https://github.com/XBarni999/Phantasms-Arsenal/releases/tag/v1.0.1"
+      "url": "https://github.com/XBarni999/Phantasms-Arsenal/releases/tag/v1.0.2"
     }
   ],
   "authors": [
@@ -27,12 +27,12 @@
   "artifacts": [
     {
       "fileName": "Phantasms-Arsenal.dll",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "release",
       "type": "plugin",
       "gameVersion": "0.34.2",
-      "downloadUrl": "https://github.com/XBarni999/Phantasms-Arsenal/releases/download/v1.0.1/Phantasms-Arsenal.dll",
-      "hash": "sha256:815df292e9ea57bc76be8fdcb49ea6959f9095310e98f1d0e5797bafcac043f7",
+      "downloadUrl": "https://github.com/XBarni999/Phantasms-Arsenal/releases/download/v1.0.2/Phantasms-Arsenal.dll",
+      "hash": "sha256:84ad5b88fd9ce8b5dc7d89107f585d38c17bb77c0d4011984180d89b3729b065",
       "dependencies": [
         {
           "id": "com.nikkorap.blueprinter",
