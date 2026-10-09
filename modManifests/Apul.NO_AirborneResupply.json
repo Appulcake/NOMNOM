@@ -1,0 +1,38 @@
+{
+  "id": "Apul.NO_AirborneResupply",
+  "displayName": "Airborne Resupply",
+  "description": "A mod to add simplistic airborne resupply (rearm and refuel).",
+  "tags": [
+    "mod"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/Appulcake/NO_AirborneResupply"
+    }
+  ],
+  "authors": [
+    "Appulcake"
+  ],
+  "isClientOrServer": "Both",
+  "githubOwner": "Appulcake",
+  "githubRepoName": "NO_AirborneResupply",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "Apul.NO_AirborneResupply.zip",
+      "version": "0.34.2.1",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/Appulcake/NO_AirborneResupply/releases/download/v0.34.2.1/Apul.NO_AirborneResupply.zip",
+      "hash": "sha256:ac11d943119cb1903e7538839c576de3f641e69f4db9eb2c0e1063eac56e7793",
+      "dependencies": [
+        {
+          "id": "BepInEx.ConfigurationManager",
+          "version": "18.4.1"
+        }
+      ]
+    }
+  ]
+}
