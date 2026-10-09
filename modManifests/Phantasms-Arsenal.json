@@ -26,6 +26,36 @@
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
+      "fileName": "Phantasms-Arsenal-1.1.5.zip",
+      "version": "1.1.5",
+      "category": "release",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/XBarni999/Phantasms-Arsenal/releases/download/v1.1.5/Phantasms-Arsenal-1.1.5.zip",
+      "hash": "sha256:a22feab18ba3364a845c639ab321c3eb28cac41186e486e7c1515a9b4b3f81a0",
+      "dependencies": [
+        {
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
+        }
+      ]
+    },
+    {
+      "fileName": "Phantasms-Arsenal-1.1.4-test.1-English.zip",
+      "version": "1.1.4-test.1",
+      "category": "preRelease",
+      "type": "plugin",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/XBarni999/Phantasms-Arsenal/releases/download/v1.1.4-test.1/Phantasms-Arsenal-1.1.4-test.1-English.zip",
+      "hash": "sha256:db6cc1311a008b6322a1d65e32584f84ce05480b52e314b8b9d2889452c7f0ab",
+      "dependencies": [
+        {
+          "id": "com.nikkorap.blueprinter",
+          "version": "2.0.1"
+        }
+      ]
+    },
+    {
       "fileName": "Phantasms-Arsenal.dll",
       "version": "1.0.3",
       "category": "release",
@@ -40,5 +70,6 @@
         }
       ]
     }
-  ]
+  ],
+  "downloadCount": 90
 }
