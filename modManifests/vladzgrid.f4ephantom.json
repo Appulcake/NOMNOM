@@ -1,0 +1,39 @@
+{
+  "id": "vladzgrid.f4ephantom",
+  "displayName": "F-4E Phantom II",
+  "description": "Adds a playable F-4E Phantom II with gray livery, visible weapon pylons, twin exhausts and native cockpit/flight systems.",
+  "tags": [
+    "mod",
+    "aircraft",
+    "blueprinter"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/Braianvladzgrid/F4E-Phantom-NuclearOption"
+    }
+  ],
+  "authors": [
+    "Braianvladzgrid",
+    "Kenny3D89 (aircraft model)"
+  ],
+  "isClientOrServer": "Both",
+  "githubOwner": "Braianvladzgrid",
+  "githubRepoName": "F4E-Phantom-NuclearOption",
+  "autoUpdateArtifacts": "True",
+  "artifacts": [
+    {
+      "fileName": "F-4E.Phantom.II_1.1.4.nobp",
+      "version": "1.1.4",
+      "category": "release",
+      "type": "addon",
+      "gameVersion": "0.34.2",
+      "downloadUrl": "https://github.com/Braianvladzgrid/F4E-Phantom-NuclearOption/releases/download/1.1.4/F-4E.Phantom.II_1.1.4.nobp",
+      "hash": "sha256:d0cbcdceb92a0966beba85f1de7fda5d912d333b6dbf9fe2c4c063d4df693ef1",
+      "extends": {
+        "id": "com.nikkorap.blueprinter",
+        "version": "2.0.1"
+      }
+    }
+  ]
+}
