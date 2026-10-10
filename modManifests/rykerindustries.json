@@ -4,9 +4,8 @@
   "description": "Munition pack by Stryker that adds unique missiles",
   "tags": [
     "weapons",
-	"blueprinter",
-	"mod"
-	
+    "blueprinter",
+    "mod"
   ],
   "urls": [
     {
@@ -16,7 +15,7 @@
   ],
   "authors": [
     "Stryker",
-	"javiairplane"
+    "javiairplane"
   ],
   "githubOwner": "TheStrykerMGS",
   "githubRepoName": "RykerIndustries-munition-pack",
@@ -37,5 +36,6 @@
         }
       ]
     }
-  ]
+  ],
+  "downloadCount": 347
 }
