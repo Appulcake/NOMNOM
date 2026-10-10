@@ -16,7 +16,7 @@
   ],
   "isClientOrServer": "Both",
   "githubOwner": "BirreD",
-  "githubRepoName": "https://github.com/BirreD/CI-23_Camel",
+  "githubRepoName": "CI-23_Camel",
   "autoUpdateArtifacts": "True",
   "artifacts": [
     {
